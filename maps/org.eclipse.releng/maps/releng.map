@@ -31,5 +31,5 @@ plugin@org.eclipse.sdk.macosx.carbon=r213_v20031212,:pserver:anonymous@dev.eclip
 feature@org.eclipse.team.extras-feature=v20020917,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.team.extras=v20030401,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.test=v20030602,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.test=perf213_v20041114,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.ant.optional.junit=v20030401,:pserver:anonymous@dev.eclipse.org:/home/eclipse,

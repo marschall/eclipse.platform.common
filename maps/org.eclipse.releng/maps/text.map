@@ -10,7 +10,7 @@ plugin@org.eclipse.ui.examples.javaeditor=v20040625_1200,:pserver:anonymous@dev.
 
 plugin@org.eclipse.text.tests=v20041126_perf30,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jface.text.tests=v20041126_perf30,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.core.filebuffers.tests=v20041126_perf30,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.core.filebuffers.tests=perf_30_v20050125,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.workbench.texteditor.tests=v20041126_perf30,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.editors.tests=v20041126_perf30,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.text.tests=v20041126_perf30,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.text.tests=perf_30_v20050125,:pserver:anonymous@dev.eclipse.org:/home/eclipse,

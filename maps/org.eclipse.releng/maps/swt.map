@@ -16,4 +16,4 @@ plugin@org.eclipse.swt.examples.layouts=v2135b, :pserver:anonymous@dev.eclipse.o
 plugin@org.eclipse.swt.examples.ole.win32=v2135b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.swt.examples.paint=v2135b, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.swt.tests=v3114for213d, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.swt.tests=v3114for213e, :pserver:anonymous@dev.eclipse.org:/home/eclipse,

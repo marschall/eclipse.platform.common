@@ -1,6 +1,6 @@
 !***************  HELP CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.help=v20050404_perf213,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help=r212_v20030911, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.help.appserver=v20030324a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.help.ui=r211_v20030527, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.help.ui.win32=v20030311, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
@@ -9,5 +9,5 @@ plugin@org.eclipse.help.webapp=r213_v20031118, :pserver:anonymous@dev.eclipse.or
 plugin@org.eclipse.tomcat=r212_v20030709, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.apache.lucene=v20030311, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.help.tests=v20050404_perf213,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.help.tests=v20050406_perf213,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.help.examples.ex1=v20030327, :pserver:anonymous@dev.eclipse.org:/home/eclipse,

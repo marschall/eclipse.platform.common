@@ -6,5 +6,5 @@ plugin@org.eclipse.jdt.core=v_449, :pserver:anonymous@dev.eclipse.org:/home/ecli
 plugin@org.eclipse.jdt.core.tests.builder=v_449a_perf_30, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.core.tests.compiler=v_449d_perf_30, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.core.tests.model=v_449c_perf_30, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.core.tests.performance=v_449e_perf_30, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.core.tests.performance=v_449f_perf_30, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 

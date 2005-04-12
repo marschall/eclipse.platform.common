@@ -1,10 +1,10 @@
 !***************  DEBUG CONTRIBUTION  ******************************************************** 
 
-plugin@org.eclipse.debug.core=r212_v20030909, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.debug.ui=r213_v20040310, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.debug=r212_v20030909, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.debug.ui=r211_v20030610, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.launching=r211_v20030429, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.debug.core=perf213_v20050412,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.debug.ui=perf213_v20050412,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.debug=perf213_v20050412,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.debug.ui=perf213_v20050412,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.launching=perf213_v20050412,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.launching.macosx=v20030314, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.debug.tests=perf_213_v20041206, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.debug.tests=perf213_v20050412,:pserver:anonymous@dev.eclipse.org:/home/eclipse,

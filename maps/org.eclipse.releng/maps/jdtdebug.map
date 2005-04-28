@@ -7,4 +7,4 @@ plugin@org.eclipse.jdt.debug.ui=perf213_v20050412,:pserver:anonymous@dev.eclipse
 plugin@org.eclipse.jdt.launching=perf213_v20050412,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.launching.macosx=v20030314, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.debug.tests=perf_213_v20050414,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.debug.tests=perf_213_v20050428,:pserver:anonymous@dev.eclipse.org:/home/eclipse,

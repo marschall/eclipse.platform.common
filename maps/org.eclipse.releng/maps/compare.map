@@ -3,5 +3,5 @@
 plugin@org.eclipse.compare=v20030327, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.compare.examples=v20030326a, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.compare.tests=v20050329_perf213, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.compare.tests=v20050429_perf213, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 

@@ -8,4 +8,4 @@ plugin@org.eclipse.update.ui=v20040623c,:pserver:anonymous@dev.eclipse.org:/home
 fragment@org.eclipse.update.core.win32=v20040318,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 fragment@org.eclipse.update.core.linux=v20040609,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.update.tests.core=v20041110_perf30,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.update.tests.core=v20050429_perf_30,:pserver:anonymous@dev.eclipse.org:/home/eclipse,

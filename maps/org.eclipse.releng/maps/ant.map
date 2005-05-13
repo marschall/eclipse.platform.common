@@ -8,4 +8,4 @@ plugin@org.eclipse.ant.ui=v20040623a,:pserver:anonymous@dev.eclipse.org:/home/ec
 plugin@org.eclipse.ui.externaltools=v20040624,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.ant.tests.core=v20040623,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.ant.tests.ui=r30_v20050422,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.ant.tests.ui=r30_v20050513,:pserver:anonymous@dev.eclipse.org:/home/eclipse,

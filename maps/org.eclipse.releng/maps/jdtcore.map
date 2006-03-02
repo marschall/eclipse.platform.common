@@ -1,10 +1,10 @@
 
-!***************  JDT CORE CONTRIBUTION  [20051124] ******************************************* 
+!***************  JDT CORE CONTRIBUTION  [20060302] ******************************************* 
 
 plugin@org.eclipse.jdt.core=v_570, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
 plugin@org.eclipse.jdt.core.tests.builder=v_570, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.core.tests.compiler=v_570, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.jdt.core.tests.model=v_570, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.core.tests.performance=v_570d_perf_31, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.core.tests.performance=v_570e_perf_31, :pserver:anonymous@dev.eclipse.org:/home/eclipse,
 

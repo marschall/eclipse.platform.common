@@ -13,4 +13,4 @@ plugin@org.eclipse.jface.text.tests=v20050623-1200,:pserver:anonymous@dev.eclips
 plugin@org.eclipse.core.filebuffers.tests=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.workbench.texteditor.tests=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 plugin@org.eclipse.ui.editors.tests=v20050623-1200,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
-plugin@org.eclipse.jdt.text.tests=perf_31x_v20060413,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.text.tests=perf_31x_v20060419,:pserver:anonymous@dev.eclipse.org:/home/eclipse,

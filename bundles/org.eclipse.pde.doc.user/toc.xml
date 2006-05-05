@@ -1,74 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?NLS TYPE="org.eclipse.help.toc"?>
-<!-- ============================================================================= -->
-<!-- Define topics for the main guide                                              -->
-<!-- ============================================================================= -->
 <toc label="Plug-in Development Environment Guide">
-	<topic label="Getting Started">
-		<topic label="Introduction to PDE" href="guide/pde.htm"/>
-		<topic label="Preparing the workbench" href="guide/pde_setup.htm"/>
-		<topic label="Concepts" href="guide/pde_configuring.htm"/>
-		<topic label="Basic Plug-in Tutorial">
-			<topic label="Creating a plug-in project" href="guide/pde_creating.htm"/>
-			<topic label="Plug-in manifest editor" href="guide/pde_manifest.htm">
-				<topic label="Overview page" href="guide/pde_manifest_overview.htm" />
-				<topic label="Dependencies page" href="guide/pde_manifest_dependencies.htm"/>
-				<topic label="Runtime page" href="guide/pde_manifest_runtime.htm" />
-				<topic label="Extensions page" href="guide/pde_manifest_extensions.htm" />
-				<topic label="Extension points page" href="guide/pde_manifest_extensionpoints.htm" />
-				<topic label="Build configuration page" href="guide/pde_build_editor.htm" />
-				<topic label="Source pages" href="guide/pde_manifest_source.htm" />
-			</topic>
-			<topic label="Running a plug-in" href="guide/pde_running.htm">
-				<topic label="Choosing plug-ins to run" href="guide/pde_running_plugins.htm"/>
-				<topic label="Running with tracing" href="guide/pde_running_tracing.htm"/>
-			</topic>
-			<topic label="Exporting a plug-in" href="guide/pde_deploy.htm"/>
-		</topic>
-		<topic label="Fragments" href="guide/pde_fragment.htm">
-			<topic label="Fragment example" href="guide/pde_fragment_example.htm"/>
-		</topic>
-		<topic label="Features" href="guide/pde_features.htm">
-			<topic label="Setting up a feature project" href="guide/pde_feature_setup.htm"/>
-			<topic label="Feature manifest editor" href="guide/pde_feature_manifest.htm"/>
-			<topic label="Synchronizing versions" href="guide/pde_feature_synchronizing.htm"/>
-			<topic label="Exporting a feature" href="guide/pde_feature_generating.htm"/>
-			<topic label="Advanced topics in building features">
-				<topic label="Build configuration" href="guide/pde_feature_generating_build.htm"/>
-				<topic label="Generating Ant scripts from PDE" href="guide/pde_feature_generating_ant.htm"/>
-				<topic label="Generating Ant scripts from scripts" href="guide/pde_feature_generating_antcommandline.htm"/>
-			</topic>
-		</topic>
-		<topic label="Update Sites" href="guide/pde_sites.htm">
-		   <topic label="Setting up an update site project" href="guide/pde_site_setup.htm"/>
-		   <topic label="Building plug-ins and features using update site editor" href="guide/pde_site_building.htm"/>
-		   <topic label="Previewing update sites" href="guide/pde_site_previewing.htm"/>
-		</topic>   
-		<topic label="Eclipse Products">
-			<topic label="RCP template" href="guide/rcp_project.htm"/>
-			<topic label="Product Configuration" href="guide/product_configuration.htm"/>
-			<topic label="Product Editor" href="guide/product_editor.htm">
-				<topic label="Feature-Based Configuration" href="guide/feature_based_product.htm"/>
-			</topic>
-			<topic label="Exporting a Product" href="guide/product_export.htm"/>
+	<topic label="Getting Started" href="getting_started/getting_started.html">
+		<topic label="Overview" href="getting_started/getting_started_overview.html"/>
+		<topic label="Plug-in Development Perspective" href="getting_started/pde_perspective.html"/>
+	</topic>
+	<topic label="Concepts" href="concepts/concepts.html">
+		<topic label="Plug-ins" href="concepts/plug_ins.html"/>
+		<topic label="Extensions and Extension Points" href="concepts/extensions_extensions_points.html"/>
+		<topic label="Fragments" href="concepts/fragments.html"/>
+		<topic label="Features" href="concepts/features.html"/>
+		<topic label="Products" href="concepts/products.html"/>
+		<topic label="Update Sites" href="concepts/update_sites.html"/>
+		<topic label="Target Platform" href="concepts/target_platform/target_platform.html">
+			<topic label="Target Platform Definition" href="concepts/target_platform/target_platform_definition.html"/>
+			<topic label="Host vs. Runtime Workbench" href="concepts/target_platform/host_runtime_workbench.html"/>
+			<topic label="External vs. Workspace Plug-ins" href="concepts/target_platform/external_workspace_plug_ins.html"/>
 		</topic>
 	</topic>
-	<topic label="Tasks">
-		<topic label="Creating an extension point schema" href="guide/pde_schema.htm">
-			<topic label="Extension point schema editor" href="guide/pde_schema_editor.htm"/>
-			<topic label="Using extension point schema" href="guide/pde_schema_using.htm"/>
+	<topic label="Tools" href="tools/tools.html">
+		<topic label="PDE Actions" href="tools/pde_actions/pde_actions.html">
+			<topic label="Create Ant Build File" href="tools/pde_actions/create_ant_build_file.html"/>
+			<topic label="Update Classpath..." href="tools/pde_actions/update_classpath.html"/>
+			<topic label="Externalize Strings..." href="tools/pde_actions/externalize_strings.html"/>
+			<topic label="Organize Manifests..." href="tools/pde_actions/organize_manifests.html"/>
+			<topic label="Migrate to 3.0..." href="tools/pde_actions/migrate.html"/>
+			<topic label="Build Site" href="tools/pde_actions/build_site.html"/>
+			<topic label="Convert Projects to Plug-in Projects" href="tools/pde_actions/convert_projects.html"/>
+			<topic label="Open Dependencies" href="tools/pde_actions/open_dependencies.html"/>
+			<topic label="Open Manifest" href="tools/pde_actions/open_manifest.html"/>
+			<topic label="Convert Help files to XHTML..." href="tools/pde_actions/convert_help_to_xhtml.html"/>
+			<topic label="Create Help Index" href="tools/pde_actions/create_help_index.html"/>
+			<topic label="Preview Reference Document" href="tools/pde_actions/preview_reference_document.html"/>
 		</topic>
-		<topic label="Converting existing projects" href="guide/pde_convert.htm"/>
+		<topic label="New Wizards" href="tools/new_wizards/new_wizards.html">
+			<topic label="New Plug-in Project Wizard" href="tools/new_wizards/new_plugin_project.html"/>
+			<topic label="New Plug-in from existing JAR archives Wizard" href="tools/new_wizards/new_plugin_from_jar.html"/>
+			<topic label="New Fragment Project Wizard" href="tools/new_wizards/new_fragment_project.html"/>
+			<topic label="New Extension Point Schema Wizard" href="tools/new_wizards/new_extension_point_schema.html"/>
+			<topic label="New Feature Project Wizard" href="tools/new_wizards/new_feature_project.html"/>
+			<topic label="New Feature Patch Wizard" href="tools/new_wizards/new_feature_patch.html"/>
+			<topic label="New Update Site Project Wizard" href="tools/new_wizards/new_udpate_site_project.html"/>
+			<topic label="New Product Configuration Wizard" href="tools/new_wizards/new_product_config.html"/>
+			<topic label="New Target Definition Wizard" href="tools/new_wizards/new_target_definition.html"/>
+		</topic>
+		<topic label="Import Wizards" href="tools/import_wizards/import_wizards.html">
+			<topic label="Import Plug-ins and Fragments Wizard" href="tools/import_wizards/import_plugins_fragments.html"/>
+			<topic label="Import Features Wizard" href="tools/import_wizards/import_features.html"/>
+		</topic>
+		<topic label="Export Wizards" href="tools/export_wizards/export_wizards.html">
+			<topic label="Export Deployable plug-ins and fragments Wizard" href="tools/export_wizards/export_deployable_plugins_fragments.html"/>
+			<topic label="Export Deployable features Wizard" href="tools/export_wizards/export_deployable_features.html"/>
+			<topic label="Export Eclipse product Wizard" href="tools/export_wizards/export_product.html"/>
+		</topic>
+		<topic label="Views" href="tools/views/views.html">
+			<topic label="Plug-ins View" href="tools/views/plugins_view.html"/>
+			<topic label="Plug-ins Dependency View" href="tools/views/plugin_dependencies_view.html"/>
+			<topic label="Plug-in Registry View" href="tools/views/plugin_registry_view.html"/>
+			<topic label="Error Log View" href="tools/views/error_log_view.html"/>
+		</topic>
+		<topic label="Editors" href="tools/editors/editors.html">
+			<topic label="Plug-in Manifest Editor" href="tools/editors/manifest_editor/manifest_editor.html">
+				<topic label="Overview Page" href="tools/editors/manifest_editor/overview_page/manifest_overview_page.html">
+					<topic label="General Information" href="tools/editors/manifest_editor/overview_page/manifest_general_information.html"/>
+					<topic label="Execution Environments" href="tools/editors/manifest_editor/overview_page/execution_environments.html"/>
+					<topic label="Plug-in Content" href="tools/editors/manifest_editor/overview_page/plugin_content.html"/>
+					<topic label="Extensions" href="tools/editors/manifest_editor/overview_page/extensions.html"/>
+					<topic label="Testing" href="tools/editors/manifest_editor/overview_page/testing.html"/>
+					<topic label="Exporting" href="tools/editors/manifest_editor/overview_page/exporting.html"/>
+				</topic>
+				<topic label="Dependencies Page" href="tools/editors/manifest_editor/dependencies_page/plug_in_manifest_dependencies_page.html">
+					<topic label="Required Plug-ins" href="tools/editors/manifest_editor/dependencies_page/required_plugins.html"/>
+					<topic label="Imported Packages" href="tools/editors/manifest_editor/dependencies_page/imported_packages.html"/>
+					<topic label="Automated Managment of Dependences" href="tools/editors/manifest_editor/dependencies_page/automated_managment_dependencies.html"/>
+					<topic label="Dependency Analysis" href="tools/editors/manifest_editor/dependencies_page/dependency_analysis.html"/>
+				</topic>
+				<topic label="Runtime Page" href="tools/editors/manifest_editor/runtime_page/runtime_page.html">
+					<topic label="Exported Packages" href="tools/editors/manifest_editor/runtime_page/exported_packages.html"/>
+					<topic label="Package Visibility" href="tools/editors/manifest_editor/runtime_page/packages_visibility.html"/>
+					<topic label="Classpath" href="tools/editors/manifest_editor/runtime_page/classpath.html"/>
+				</topic>
+				<topic label="Extensions Page" href="tools/editors/manifest_editor/extensions_page/extensions_page.html">
+					<topic label="All Extensions" href="tools/editors/manifest_editor/extensions_page/all_extensions.html"/>
+					<topic label="Extension / Extension Element Details" href="tools/editors/manifest_editor/extensions_page/extension_details.html"/>
+					<topic label="Body Text" href="tools/editors/manifest_editor/extensions_page/body_text.html"/>
+				</topic>
+				<topic label="Extension Points Page" href="tools/editors/manifest_editor/extension_points_page/extension_points_page.html">
+					<topic label="All Extension Points" href="tools/editors/manifest_editor/extensions_points_page/all_extension_points.html"/>
+					<topic label="Extension Point Details" href="tools/editors/manifest_editor/extensions_points_page/extension_points_details.html"/>
+				</topic>
+				<topic label="Build Editor" href="tools/editors/manifest_editor/manifest_build_editor.html"/>
+				<topic label="Source Pages" href="tools/editors/manifest_editor/plug_in_manifest_source_pages.html"/>
+			</topic>
+			<topic label="Extension Point Schema Editor" href="tools/editors/schema_editor/schema_editor.html">
+				<topic label="Overview" href="tools/editors/schema_editor/overview_page/schema_overview_page.html">
+					<topic label="General Information" href="tools/editors/schema_editor/overview_page/schema_general_information.html"/>
+					<topic label="Schema Inclusions" href="tools/editors/schema_editor/overview_page/schema_inclusions.html"/>
+					<topic label="Documentation" href="tools/editors/schema_editor/overview_page/documentation.html"/>
+				</topic>
+				<topic label="Definition" href="tools/editors/schema_editor/definition_page/definition_page.html">
+					<topic label="Extension Point Elements" href="tools/editors/schema_editor/definition_page/elements_section.html"/>
+					<topic label="Element and Attribute Details" href="tools/editors/schema_editor/definition_page/details_section.html"/>
+					<topic label="Description Section" href="tools/editors/schema_editor/definition_page/description_section.html"/>
+				</topic>
+				<topic label="Source" href="tools/editors/schema_editor/schema_source_page.html"/>
+			</topic>
+			<topic label="Build Properties Editor" href="tools/editors/build_editor/build_properties_editor.html">
+				<topic label="Build" href="tools/editors/build_editor/build/build.html">
+					<topic label="Runtime Information" href="tools/editors/build_editor/build/runtime_information_section.html"/>
+					<topic label="Binary Build" href="tools/editors/build_editor/build/binary_build_section.html"/>
+					<topic label="Source Build" href="tools/editors/build_editor/build/source_build_section.html"/>
+					<topic label="Extra Classpath Entries" href="tools/editors/build_editor/build/extra_classpath_entries_section.html"/>
+				</topic>
+				<topic label="Source" href="tools/editors/build_editor/build_source_page.html"/>
+			</topic>
+			<topic label="Feature Manifest Editor" href="tools/editors/feature_editor/feature_editor.html">
+				<topic label="Overview" href="tools/editors/feature_editor/overview_page/overview_page.html">
+					<topic label="General Information Section" href="tools/editors/feature_editor/overview_page/general_information_section.html"/>
+					<topic label="Supported Environments Section" href="tools/editors/feature_editor/overview_page/supported_environments_section.html"/>
+					<topic label="Exporting Section" href="tools/editors/feature_editor/overview_page/exported_section.html"/>
+					<topic label="Publishing Section" href="tools/editors/feature_editor/overview_page/publishing_section.html"/>
+				</topic>
+				<topic label="Information" href="tools/editors/feature_editor/information_page/information_page.html">
+					<topic label="Feature Description Tab" href="tools/editors/feature_editor/information_page/description_tab.html"/>
+					<topic label="Copyright Notice Tab" href="tools/editors/feature_editor/information_page/copyright_tab.html"/>
+					<topic label="License Agreement Tab" href="tools/editors/feature_editor/information_page/licence_tab.html"/>
+					<topic label="Sites to Visit Tab" href="tools/editors/feature_editor/information_page/sites_tab.html"/>
+				</topic>
+				<topic label="Plug-ins" href="tools/editors/feature_editor/plugins_page/plugins_page.html">
+					<topic label="Plug-ins and Fragments Section" href="tools/editors/feature_editor/plugins_page/plugins_fragments_section.html"/>
+					<topic label="Plug-in Details Section" href="tools/editors/feature_editor/plugins_page/plugins_details_section.html"/>
+				</topic>
+				<topic label="Included Features" href="tools/editors/feature_editor/included_features_page/included_features_page.html">
+					<topic label="Included Features Section" href="tools/editors/feature_editor/included_features_page/included_features_section.html"/>
+					<topic label="Included Features Details Section" href="tools/editors/feature_editor/included_features_page/included_features_details_section.html"/>
+				</topic>
+				<topic label="Dependencies" href="tools/editors/feature_editor/dependencies_page/feature_manifest_dependencies_page.html">
+					<topic label="Required Features / Plug-ins Section" href="tools/editors/feature_editor/dependencies_page/required_plugins_section.html"/>
+					<topic label="Dependency Properties Section" href="tools/editors/feature_editor/dependencies_page/dependecies_properties_section.html"/>
+				</topic>
+				<topic label="Installation" href="tools/editors/feature_editor/installation_page/installation_page.html">
+					<topic label="Installation Options Section" href="tools/editors/feature_editor/installation_page/installation_options_section.html"/>
+					<topic label="Feature Data Section" href="tools/editors/feature_editor/installation_page/feature_data_section.html"/>
+					<topic label="Install Handler Section" href="tools/editors/feature_editor/installation_page/install_handler_section.html"/>
+					<topic label="Data Archive Details Section" href="tools/editors/feature_editor/installation_page/data_archive_section.html"/>
+				</topic>
+				<topic label="Source Pages" href="tools/editors/feature_editor/feature_manifest_source_pages.html"/>
+			</topic>
+			<topic label="Site Manifest Editor" href="tools/editors/site_editor/site_editor.html">
+				<topic label="Site Map" href="tools/editors/site_editor/site_map_page/site_map_page.html">
+					<topic label="Managing the Site Section" href="tools/editors/site_editor/site_map_page/managing_the_site_section.html"/>
+					<topic label="Category Properties Section" href="tools/editors/site_editor/site_map_page/category_properties_section.html"/>
+					<topic label="Feature Properties Section" href="tools/editors/site_editor/site_map_page/feature_properties_section.html"/>
+					<topic label="Feature Environment Section" href="tools/editors/site_editor/site_map_page/feature_environment_section.html"/>
+				</topic>
+				<topic label="Archives" href="tools/editors/site_editor/archives_page/archives_page.html">
+					<topic label="Site Description Section" href="tools/editors/site_editor/archives_page/site_description_section.html"/>
+					<topic label="Archive Mapping Section" href="tools/editors/site_editor/archives_page/archive_mapping_section.html"/>
+					<topic label="Site Mirrors Section" href="tools/editors/site_editor/archives_page/site_mirrors_section.html"/>
+				</topic>
+				<topic label="site.xml" href="tools/editors/site_editor/source_page.html"/>
+			</topic>
+			<topic label="Product Configuration Editor" href="tools/editors/product_configuration_editor/product_configuration_editor.html">
+				<topic label="Overview" href="tools/editors/product_configuration_editor/overview/product_configuration_overview.html">
+					<topic label="Product Definition Section" href="tools/editors/product_configuration_editor/overview/product_definition_section.html"/>
+					<topic label="Testing Section" href="tools/editors/product_configuration_editor/overview/testing_section.html"/>
+					<topic label="Exporting Section" href="tools/editors/product_configuration_editor/overview/exporting_section.html"/>
+				</topic>
+				<topic label="Configuration" href="tools/editors/product_configuration_editor/configuration/configuration.html">
+					<topic label="Plug-ins and Fragments Section" href="tools/editors/product_configuration_editor/configuration/plug_ins_fragments_section.html"/>
+					<topic label="Configuration File Section" href="tools/editors/product_configuration_editor/configuration/configuration_file_section.html"/>
+				</topic>
+				<topic label="Launcher" href="tools/editors/product_configuration_editor/launcher/launcher.html">
+					<topic label="Program Launcher Section" href="tools/editors/product_configuration_editor/launcher/progarm_launcher_section.html"/>
+					<topic label="Launching Arguments Section" href="tools/editors/product_configuration_editor/launcher/launching_arguments_section.html"/>
+				</topic>
+				<topic label="Branding" href="tools/editors/product_configuration_editor/branding/branding.html">
+					<topic label="Splash Screen Section" href="tools/editors/product_configuration_editor/branding/splash_screen_section.html"/>
+					<topic label="Window Images Section" href="tools/editors/product_configuration_editor/branding/window_images_section.html"/>
+					<topic label="About Dialog Section" href="tools/editors/product_configuration_editor/branding/about_dialog_section.html"/>
+					<topic label="Welcome Screen Section" href="tools/editors/product_configuration_editor/branding/welcome_screen_section.html"/>
+				</topic>
+			</topic>
+			<topic label="Target Editor" href="tools/editors/target_editor/target_editor.html">
+				<topic label="Overview" href="tools/editors/target_editor/overview/target_overview.html">
+					<topic label="Target Definition Section" href="tools/editors/target_editor/overview/target_definition_section.html"/>
+					<topic label="Additional Locations Section" href="tools/editors/target_editor/overview/additional_locations_section.html"/>
+					<topic label="Target Content Section" href="tools/editors/target_editor/overview/target_content_section.html"/>
+				</topic>
+				<topic label="Environment" href="tools/editors/target_editor/environment/environment.html">
+					<topic label="Environment Section" href="tools/editors/target_editor/environment/environment_section.html"/>
+					<topic label="Target JRE Section" href="tools/editors/target_editor/environment/target_jre_section.html"/>
+					<topic label="Arguments Section" href="tools/editors/target_editor/environment/arguments_section.html"/>
+					<topic label="Implicit Plug-in Dependencies Section" href="tools/editors/target_editor/environment/implicit_plug_in_dependencies_section.html"/>
+				</topic>
+			</topic>
+		</topic>
+		<topic label="Miscellaneous" href="tools/miscellaneous/miscellaneous.html">
+			<topic label="Version Synchronization" href="tools/miscellaneous/version_synchronization.html"/>
+			<topic label="Generating ANT scripts" href="tools/miscellaneous/generating_ant_scripts.html"/>
+			<topic label="Access Restrictions" href="tools/miscellaneous/access_restrictions.html"/>
+		</topic>
+		<topic label="Launchers" href="tools/launchers/launchers.html">
+			<topic label="Eclipse Application Launcher" href="tools/launchers/eclipse_application_launcher.html"/>
+			<topic label="Equinox OSGi Framework Launcher" href="tools/launchers/equinox_osgi_framework_launcher.html"/>
+			<topic label="SWT Application Launcher" href="tools/launchers/swt_application_launcher.html"/>
+			<topic label="JUnit Plug-in Test Launcher" href="tools/launchers/junit_plug_in_test_launcher.html"/>
+		</topic>
+		<topic label="Preference Pages" href="tools/preference_pages/preference_pages.html">
+			<topic label="Plug-in Development Preference Page" href="tools/preference_pages/plug_in_development_preference_page.html"/>
+			<topic label="Target Platform Preference Page" href="tools/preference_pages/target_platform_preference_page.html"/>
+			<topic label="Editors Preference Page" href="tools/preference_pages/editors_preference_page.html"/>
+			<topic label="Compilers Preference Page" href="tools/preference_pages/compilers_preference_page.html"/>
+		</topic>
 	</topic>
-
-	<topic label="Reference">
-		<link toc="topics_Reference.xml" />
-		<topic label="Access Restrictions" href="guide/restrictions.htm"/>
-		<topic label="Plug-ins as JARs" href="guide/plugins_as_jars.htm"/>
-		<topic label="Dynamic classpaths FAQ" href="guide/dynamic-classpaths.htm"/>	
+	<topic label="Reference" href="reference/reference.html">
+		<topic label="API Reference" href="reference/api_reference.html"/>
+		<topic label="Extension Points Reference" href="reference/extension_points_reference.html"/>
 	</topic>
-	
-	<topic label="Tips and tricks" href="tips/pde_tips.htm"/>
-	<topic label="What's new" href="whatsNew/pde_whatsnew.htm"/>
-	<topic label="Legal" href="notices.html"/>
+	<topic label="Tips and Tricks" href="tips_and_tricks.html"/>
+	<topic label="What's New" href="whats_new.html"/>
+	<topic label="Legal" href="legal.html"/>
 </toc>

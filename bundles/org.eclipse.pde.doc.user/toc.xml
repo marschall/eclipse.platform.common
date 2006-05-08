@@ -218,7 +218,7 @@
 		<topic label="API Reference" href="reference/api_reference.html"/>
 		<topic label="Extension Points Reference" href="reference/extension_points_reference.html"/>
 	</topic>
-	<topic label="Tips and Tricks" href="tips_and_tricks.html"/>
-	<topic label="What's New" href="whats_new.html"/>
-	<topic label="Legal" href="legal.html"/>
+	<topic label="Tips and Tricks" href="tips/pde_tips.htm"/>
+	<topic label="What's New" href="whatsNew/pde_whatsnew.htm"/>
+	<topic label="Legal" href="notices.html"/>
 </toc>

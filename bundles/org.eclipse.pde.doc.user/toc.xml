@@ -207,16 +207,15 @@
 			<topic label="SWT Application Launcher" href="tools/launchers/swt_application_launcher.html"/>
 			<topic label="JUnit Plug-in Test Launcher" href="tools/launchers/junit_plug_in_test_launcher.html"/>
 		</topic>
-		<topic label="Preference Pages" href="tools/preference_pages/preference_pages.html">
-			<topic label="Plug-in Development Preference Page" href="tools/preference_pages/plug_in_development_preference_page.html"/>
-			<topic label="Target Platform Preference Page" href="tools/preference_pages/target_platform_preference_page.html"/>
-			<topic label="Editors Preference Page" href="tools/preference_pages/editors_preference_page.html"/>
-			<topic label="Compilers Preference Page" href="tools/preference_pages/compilers_preference_page.html"/>
+		<topic label="Preference Pages" href="guide/tools/preference_pages/preference_pages.htm">
+			<topic label="Plug-in Development Preference Page" href="guide/tools/preference_pages/plug_in_development_preference_page.htm"/>
+			<topic label="Target Platform Preference Page" href="guide/tools/preference_pages/target_platform_preference_page.htm"/>
+			<topic label="Editors Preference Page" href="guide/tools/preference_pages/editors_preference_page.htm"/>
+			<topic label="Compilers Preference Page" href="guide/tools/preference_pages/compilers_preference_page.htm"/>
 		</topic>
 	</topic>
-	<topic label="Reference" href="reference/reference.html">
-		<topic label="API Reference" href="reference/api_reference.html"/>
-		<topic label="Extension Points Reference" href="reference/extension_points_reference.html"/>
+	<topic label="Reference">
+		<link toc="topics_Reference.xml" />
 	</topic>
 	<topic label="Tips and Tricks" href="tips/pde_tips.htm"/>
 	<topic label="What's New" href="whatsNew/pde_whatsnew.htm"/>

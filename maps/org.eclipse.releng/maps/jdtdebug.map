@@ -9,4 +9,4 @@ plugin@org.eclipse.jdt.launching.macosx=v20050509,:pserver:anonymous@dev.eclipse
 
 plugin@org.eclipse.ui.console=v20050616a,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
 
-plugin@org.eclipse.jdt.debug.tests=perf_31x_20060410,:pserver:anonymous@dev.eclipse.org:/home/eclipse,
+plugin@org.eclipse.jdt.debug.tests=perf_31x_20060509,:pserver:anonymous@dev.eclipse.org:/home/eclipse,

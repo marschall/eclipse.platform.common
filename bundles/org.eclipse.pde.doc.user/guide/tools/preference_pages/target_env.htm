@@ -17,11 +17,11 @@
 
 <body>
 <p class="style1">Target Environment</p>
-<p>The <strong>Target Environment</strong> tab defines the operating system, windowing syste, architecture and locale for which you are developing your plug-ins.</p>
+<p>The <strong>Target Environment</strong> tab defines the operating system, windowing system, architecture and locale for which you are developing your plug-ins.</p>
 <p><img src="../../images/preferences_target_environment.png" alt="Target Environment" hspace="30"></p>
-<p>Typically, a plug-in is agnostic to its environment and should run in all environments. However, if you have platform-specific resources/code, it is recommended to package them in a plug-in fragment, where the fragment declares the platform with which it is compatible.</p>
-<p>For example, the org.eclipse.ui.win32 fragment has the following filter in its MANIFEST.MF: </p>
+<p>Typically, a plug-in is agnostic to its environment and should run in all environments. However, if you have platform-specific resources or code, it is recommended to package them in a plug-in fragment that declares the platform with which it is compatible.</p>
+<p>For example, the <em>org.eclipse.ui.win32</em> fragment has the following filter in its <em>MANIFEST.MF</em>: </p>
 <p><strong>Eclipse-PlatformFilter: (ws=win32)</strong></p>
-<p>This filter indicates that the org.eclipse.ui.win32 fragment is designed to run only on platforms with a win32 windowing system. If Eclipse is running on a platform that does not meeting this requirement, the fragment will be silently ignored by the runtime. </p>
+<p>This filter indicates that the <em>org.eclipse.ui.win32</em> fragment is designed to run only on platforms with a <em>win32</em> windowing system. If a user attempts to run Eclipse on a platform that does not meet this requirement, the fragment will be silently ignored by the runtime. </p>
 </body>
 </html>

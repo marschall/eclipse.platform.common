@@ -3,9 +3,43 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>Target Platform Preference Page</title>
+<title>Target Platform Preferences</title>
+<link href="../../book.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.style2 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+-->
+</style>
 </head>
 
 <body>
+<p class="style1">Target Platform Preferences</p>
+<p>Target Platform refers to the platform against which you are developing and testing your plug-ins. The target platform encompasses the location of the target, the list of plug-ins constituting the target, the target environment and launching arguments. </p>
+<p>&nbsp;</p>
+<p class="style2">Target Location</p>
+<p>The target location typically denotes the location of an Eclipse installation. When searching the target location for plug-ins, PDE assumes a typical Eclipse installation layout, i.e. plug-ins are expected to be in a <em>plugins/ </em>subdirectory of the target location. Similarly, features are assumed to be in a <em>features/ </em>subdirectory of the target location. </p>
+<p><img src="../../images/preferences_target_location.png" alt="Target Location" hspace="30"></p>
+<p>Not all targets are Eclipse installations. Therefore PDE is flexible when it comes to locating plug-ins in the target. In the absence of a <em>plugins/</em> subdirectory, PDE assumes the target location itself is the directory where plug-ins are located.</p>
+<p>&nbsp;</p>
+<p class="style2">Target Definitions</p>
+<p>&nbsp;</p>
+<p><img src="../../images/preferences_target_predefined.png" alt="Target definitions" hspace="30"> </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>For more information, refer to the following documents:</p>
+<ul>
+  <li><a href="target_plugins.htm">Target Plug-ins</a></li>
+  <li><a href="target_env.htm">Target Environment</a></li>
+  <li><a href="launching_args.htm">Launching Arguments</a></li>
+  <li><a href="implicit_dependencies.htm">Implicit Dependencies</a></li>
+  <li><a href="source_code_locations.htm">Source Code Locations</a></li>
+</ul>
 </body>
 </html>

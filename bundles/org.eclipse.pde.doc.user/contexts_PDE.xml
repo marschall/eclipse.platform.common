@@ -260,47 +260,65 @@ The search can be extended beyond workspace resources to include external plug-i
 <!-- end Children of the PDEFormPage -->
 
 
-<!-- Preference pages -->
+<!-- START:  Preference pages -->
+
+   <!-- Plug-in Development -->
+
+   <!-- one to one mapping -->
    <context id="main_preference_page" >
       <description>This page allows you to set Plug-in Development Environment general settings.</description>
+      <topic label="Preferences" href="guide/tools/preference_pages/preferences.htm"/>
+
+      <topic label="General Plug-in Development Preferences" href="guide/tools/preference_pages/plug_in_development_preference_page.htm"/>
    </context>
-   
-   <context id="build_options_preference_page" >
-      <description>This page allows you to set the default values for some of the variables used when running a plug-in Ant build script.</description>
-   </context>
-     
+
+   <!-- Compilers -->
+
+   <!-- one to one mapping -->
    <context id="compilers_preference_page" >
       <description>This page allows you to specify the behavior of the various manifest compilers.</description>
-	  <topic label="Source page" href="guide/pde_manifest_source.htm"/>
+	  <topic label="Compilers Preferences" href="guide/tools/preference_pages/compilers_preference_page.htm"/>
+
+      <topic label="Plug-in Compiler Preferences" href="guide/tools/preference_pages/plugin_compiler.htm"/>
+      <topic label="Extension Point Schema Compiler Preferences" href="guide/tools/preference_pages/schema_compiler.htm"/>
+      <topic label="Feature and Update Site Compiler Preferences" href="guide/tools/preference_pages/feature_compiler.htm"/>	  
    </context>
-   
+
+   <!-- Editors -->
+
+   <!-- one to one mapping -->
    <context id="editor_preference_page" >
       <description>This page allows you to configure behavior and presentation of PDE multi-page editors.</description>
-	<topic label="Plug-in manifest editor" href="guide/pde_manifest.htm"/>
-	<topic label="Feature manifest editor" href="guide/pde_feature_manifest.htm"/>
-	<topic label="Extension point schema editor" href="guide/pde_schema_editor.htm"/>
+      <topic label="Editors Preferences" href="guide/tools/preference_pages/editors_preference_page.htm"/>	 
    </context>
-   
-   <context id="source_preference_page" >
-      <description>This page allows you to configure source code locations.
-When attaching source archives to Java libraries, PDE first looks in plug-ins. If not found, the search is extended to source locations. 
-Source locations can be provided by plug-ins that are used to carry source code (in SDKs). They can also be defined by users. 
-Unchecked source locations will be ignored by PDE.</description>
-   </context>
-   
-    <context id="target_environment_preference_page" >
-      <description>This page allows you to set the target environment for the plug-ins you develop.</description>
- 		<topic label="Running a plug-in" href="guide/pde_running.htm"/>
-		<topic label="Deploying a plug-in" href="guide/pde_deploy.htm"/>
-		<topic label="Deploying a feature" href="guide/pde_feature_generating.htm"/>
-   </context>
-   
+
+   <!-- Target Platform -->
+
+   <!-- one to one mapping -->
    <context id="target_platform_preference_page" >
-      <description>This page allows you to configure the target platform that will be used to develop and test against. 
-In cases where a plug-in with the same id exists both in the workspace and in the target platform, the workspace copy will take precedence.</description>
-	<topic label="Concepts" href="guide/pde_configuring.htm"/>
-	<topic label="Dynamic classpaths FAQ" href="guide/dynamic-classpaths.htm"/>
+      <description>This page allows you to configure the target platform that will be used to develop and test against.  In cases where a plug-in with the same id exists both in the workspace and in the target platform, the workspace copy will take precedence.</description>
+      <topic label="Target Platform Preferences" href="guide/tools/preference_pages/target_platform_preference_page.htm"/>
+
+      <topic label="Target Plug-ins" href="guide/tools/preference_pages/target_plugins.htm"/>
+      <topic label="Target Environment" href="guide/tools/preference_pages/target_env.htm"/>
+      <topic label="Launching Arguments" href="guide/tools/preference_pages/launching_args.htm"/>
+      <topic label="Implicit Dependencies" href="guide/tools/preference_pages/implicit_dependencies.htm"/>
+      <topic label="Source Code Locations" href="guide/tools/preference_pages/source_code_locations.htm"/>
    </context>
+
+   <!-- TODO:  in future delete?  Fold into target_platform_preference_page to make one to one mapping -->
+   <context id="source_preference_page" >
+      <description>This page allows you to configure source code locations.  When attaching source archives to Java libraries, PDE first looks in plug-ins.  If not found, the search is extended to source locations.  Source locations can be provided by plug-ins that are used to carry source code (in SDKs). They can also be defined by users. Unchecked source locations will be ignored by PDE.</description>
+      <topic label="Source Code Locations" href="guide/tools/preference_pages/source_code_locations.htm"/>
+   </context>
+
+   <!-- TODO:  in future delete?  Fold into target_platform_preference_page to make one to one mapping -->
+   <context id="target_environment_preference_page" >
+      <description>This page allows you to set the target environment for the plug-ins you develop.</description>
+      <topic label="Target Environment" href="guide/tools/preference_pages/target_env.htm"/>
+   </context>
+     
+<!-- END:  Preference pages -->
 
 
 <!-- Property pages -->	

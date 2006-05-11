@@ -104,3 +104,11 @@ var	     { font-style: italic}
 div.revision { border-left-style: solid; border-left-width: thin; 
 				   border-left-color: #7B68EE; padding-left:5 }
 th	     { font-weight: bold }
+
+a.command-link {
+}
+a.command-link img {
+	border-width: 0px;
+	border-style: none;
+	vertical-align: middle;
+}

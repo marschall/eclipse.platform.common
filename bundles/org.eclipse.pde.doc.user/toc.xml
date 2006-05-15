@@ -204,18 +204,18 @@
 		</topic>
 		<topic label="Launchers" href="guide/tools/launchers/launchers.htm">
 			<topic label="Eclipse Application Launcher" href="guide/tools/launchers/eclipse_application_launcher.htm"/>
-			<topic label="Equinox OSGi Framework Launcher" href="guide/tools/launchers/equinox_osgi_framework_launcher.htm"/>
-			<topic label="JUnit Plug-in Test Launcher" href="guide/tools/launchers/junit_plug_in_test_launcher.htm"/>
+			<topic label="Equinox OSGi Framework Launcher" href="guide/tools/launchers/equinox_launcher.htm"/>
+			<topic label="JUnit Plug-in Test Launcher" href="guide/tools/launchers/junit_launcher.htm"/>
 		</topic>
 		<topic label="Preferences" href="guide/tools/preference_pages/preferences.htm">
-			<topic label="General Plug-in Development Preferences" href="guide/tools/preference_pages/plug_in_development_preference_page.htm"/>
-			<topic label="Compilers Preferences" href="guide/tools/preference_pages/compilers_preference_page.htm">
+			<topic label="General Plug-in Development Preferences" href="guide/tools/preference_pages/plug_in_development.htm"/>
+			<topic label="Compilers Preferences" href="guide/tools/preference_pages/compilers.htm">
 				<topic label="Plug-in Compiler Preferences" href="guide/tools/preference_pages/plugin_compiler.htm"/>
 				<topic label="Extension Point Schema Compiler Preferences" href="guide/tools/preference_pages/schema_compiler.htm"/>
 				<topic label="Feature and Update Site Compiler Preferences" href="guide/tools/preference_pages/feature_compiler.htm"/>
 			</topic>
-			<topic label="Editors Preferences" href="guide/tools/preference_pages/editors_preference_page.htm"/>
-			<topic label="Target Platform Preferences" href="guide/tools/preference_pages/target_platform_preference_page.htm">
+			<topic label="Editors Preferences" href="guide/tools/preference_pages/editors.htm"/>
+			<topic label="Target Platform Preferences" href="guide/tools/preference_pages/target_platform.htm">
 				<topic label="Target Plug-ins" href="guide/tools/preference_pages/target_plugins.htm"/>
 				<topic label="Target Environment" href="guide/tools/preference_pages/target_env.htm"/>
 				<topic label="Launching Arguments" href="guide/tools/preference_pages/launching_args.htm"/>

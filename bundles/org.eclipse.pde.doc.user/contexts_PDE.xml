@@ -269,7 +269,7 @@ The search can be extended beyond workspace resources to include external plug-i
       <description>This page allows you to set Plug-in Development Environment general settings.</description>
       <topic label="Preferences" href="guide/tools/preference_pages/preferences.htm"/>
 
-      <topic label="General Plug-in Development Preferences" href="guide/tools/preference_pages/plug_in_development_preference_page.htm"/>
+      <topic label="General Plug-in Development Preferences" href="guide/tools/preference_pages/plug_in_development.htm"/>
    </context>
 
    <!-- Compilers -->
@@ -277,7 +277,7 @@ The search can be extended beyond workspace resources to include external plug-i
    <!-- one to one mapping -->
    <context id="compilers_preference_page" >
       <description>This page allows you to specify the behavior of the various manifest compilers.</description>
-	  <topic label="Compilers Preferences" href="guide/tools/preference_pages/compilers_preference_page.htm"/>
+	  <topic label="Compilers Preferences" href="guide/tools/preference_pages/compilers.htm"/>
 
       <topic label="Plug-in Compiler Preferences" href="guide/tools/preference_pages/plugin_compiler.htm"/>
       <topic label="Extension Point Schema Compiler Preferences" href="guide/tools/preference_pages/schema_compiler.htm"/>
@@ -289,7 +289,7 @@ The search can be extended beyond workspace resources to include external plug-i
    <!-- one to one mapping -->
    <context id="editor_preference_page" >
       <description>This page allows you to configure behavior and presentation of PDE multi-page editors.</description>
-      <topic label="Editors Preferences" href="guide/tools/preference_pages/editors_preference_page.htm"/>	 
+      <topic label="Editors Preferences" href="guide/tools/preference_pages/editors.htm"/>	 
    </context>
 
    <!-- Target Platform -->
@@ -297,7 +297,7 @@ The search can be extended beyond workspace resources to include external plug-i
    <!-- one to one mapping -->
    <context id="target_platform_preference_page" >
       <description>This page allows you to configure the target platform that will be used to develop and test against.  In cases where a plug-in with the same id exists both in the workspace and in the target platform, the workspace copy will take precedence.</description>
-      <topic label="Target Platform Preferences" href="guide/tools/preference_pages/target_platform_preference_page.htm"/>
+      <topic label="Target Platform Preferences" href="guide/tools/preference_pages/target_platform.htm"/>
 
       <topic label="Target Plug-ins" href="guide/tools/preference_pages/target_plugins.htm"/>
       <topic label="Target Environment" href="guide/tools/preference_pages/target_env.htm"/>

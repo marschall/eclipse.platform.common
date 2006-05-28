@@ -12,14 +12,32 @@
 	font-size: 18px;
 	font-weight: bold;
 }
+.style3 {
+	font-size: 12pt;
+	font-weight: bold;
+}
 -->
 </style>
 </head>
 
 <body>
 <p class="style1">Launchers</p>
+<p>Testing an Eclipse plug-in is very easy. Just save your file and launch a second instance of Eclipse. No packaging or deployment steps are necessary. </p>
+<p>PDE makes it all possible by extending the Debug framework and providing three different launch configuration types that cover different testing domains: </p>
+<ul>
+  <li><a href="eclipse_application_launcher.htm">Eclipse Application</a></li>
+  <li><a href="equinox_launcher.htm">Equinox OSGi Framework</a></li>
+  <li><a href="junit_launcher.htm">JUnit Plug-in Test</a></li>
+</ul>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+<p>PDE launch configurations are centrally managed, along with other launch configurations in the SDK, in the <strong>Launch Configuration Dialog</strong>, which can be invoked via <strong>Run &gt; Run...</strong> or <strong>Debug &gt; Debug...</strong> from the top level menu. </p>
 <p><img src="../../images/launchers/launcher_outline.png" alt="launchers outline" hspace="30"></p>
+<p>&nbsp;</p>
+<p class="style3">Save and Launch </p>
+<p>As you develop your plug-in in the workspace, the Java source code gets incrementally compiled and the generated class files are placed in output folders. When you launch a runtime Eclipse application, PDE launches the application in <strong><em>dev</em></strong> mode, thus customizing the runtime classpath. PDE puts the freshly generated class files on your plug-in classpath and thus makes them readily available to get picked up by the runtime classloader. This mechanism allows you to test your code without the need to package it in a JAR first.</p>
+<p>PDE gives you even more control over the runtime classpath of your plug-in by providing a Runtime Classpath property page for each plug-in project, where you can specify on an ouput folder level which classes to exclude or include when testing. The <strong>Runtime Classpath</strong> property page can via invoked via <strong>Properties &gt; Plug-in Development &gt; Runtime Classpath</strong> from the context menu of plug-in projects. </p>
+<p>&nbsp;</p>
+<p><img src="../../images/launchers/runtime_classpath.PNG" alt="Runtime Classpath" hspace="30"> </p>
+<p>A specific example of when you might want to exclude output folders from a launch is when you are testing Ant tasks, because Ant expects your code to be in a JAR. It is therefore recommended to package Ant code in a JAR in your plug-in project as per the Ant contract, and exclude from the launch the output folder where the Ant task source is compiled. </p>
 </body>
 </html>

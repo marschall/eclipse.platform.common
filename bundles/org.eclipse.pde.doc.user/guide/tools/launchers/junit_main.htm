@@ -22,19 +22,21 @@
 <body>
 <p class="style1">Main Tab</p>
 <p>The <strong>Main Tab</strong> allows you to customize important settings of the launch configuration, including the location of the runtime workspace, the program to run and the Java runtime environment. </p>
-<p><img src="../../images/launchers/launcher_eclipse_main.png" alt="Main Tab" hspace="30"></p>
+<p><img src="../../images/launchers/launcher_junit_main.png" alt="JUnit Plug-in Main" hspace="30"></p>
 <p>&nbsp;</p>
 <p class="style2">Workspace Data</p>
-<p>The<strong> Workspace Data</strong> location is the directory on disk that will contain all the work and metadata (e.g. preferences, etc.) for the runtime Eclipse application. This location must, of course, be different than the location of your host workspace since you should be testing your plug-in in a sandbox. </p>
+<p>The<strong> Workspace Data</strong> location is the directory on disk that will contain all the work and metadata (e.g. preferences, etc.) for the runtime Eclipse application you are testing. This location must, of course, be different than the location of your host workspace since you should be testing your plug-in in a sandbox. </p>
 <p>By default, the location of the runtime workspace is set by PDE to have a unique name based on the launch configuration name and to be a sibling of the host workspace directory. You can set the location of the runtime workspace to be anywhere you like as long as the location is writable. Variable names can be used in the path to the runtime workspace location, thus making the launch configuration sharable among team members. </p>
-<p>The <strong>clear workspace data before launching</strong> option is pretty convenient if you want to test your plug-in on a fresh workspace. This option is turned off by default because workspaces for Eclipse applications typically contain useful data that does not need to be cleared from one launch to the next.</p>
-<p>The <strong>ask for confirmation before clearing</strong> option prompts the user before deleting the runtime workspace data. This option is turned on by default so that you don't inadvertently clear valuable data from your test workspace. </p>
+<p>The <strong>clear workspace data before launching</strong> option is turned on by default, because it is recommended to do test runs on a fresh workspace. </p>
+<p>The <strong>ask for confirmation before clearing</strong> option prompts the user before deleting the runtime workspace data. This option is turned off by default since the workspaces for JUnit Plug-in Test runs are typically not valuable. </p>
+<p>Note that the defaults for the <strong>clear workspace</strong> and <strong>confirmation</strong> options in this launch configuration are opposite to the defaults on the <a href="eclipse_main.htm">Main tab</a> of a regular Eclipse Application launch configuration. </p>
 <p>&nbsp;</p>
 <p class="style2">Program To Run</p>
 <p>The <strong>Program to Run</strong> section is where you specify the product or application to test. </p>
 <p>The product combo box is populated with the IDs of all products (<em>org.eclipse.core.runtime.products</em> extensions) defined in the workspace and target plug-ins. The product ID that is initially selected is the default product as specified by the <strong>eclipse.product</strong> key in the config.ini file that is located at <em>${target_home}/configuration</em>, where ${target_home} refers to the location of the target platform as specified on the <strong>Windows &gt; Preferences... &gt; Plug-in Development &gt; Target Platform</strong> preference page. In the Eclipse SDK, the default product ID is <em>org.eclipse.sdk.ide</em>.</p>
 <p>The application combo box is populated with the IDs of all applications (org.eclipse.core.runtime.applications extensions) defined in the workspace and target plug-ins. The application ID that is initially selected is the default application as specified by the <strong>eclipse.application</strong> key in the config.ini file that is located at <em>${target_home}/configuration</em>. In the Eclipse SDK, the default application ID is <em>org.eclipse.ui.ide.workbench</em>. </p>
-<p>The <strong>Run a product</strong> option is selected by default, because testing a product (a branded application) makes for a richer experience than testing a plain application. </p>
+<p>Some tests do no require a user interface nor a workbench and can therefore be run in headless mode. The JUnit Plug-in test launcher provides such a mode in the application combo box.</p>
+<p><img src="../../images/launchers/launcher_junit_headless.PNG" alt="headless" hspace="30"> </p>
 <p>&nbsp;</p>
 <p class="style2">Java Executable</p>
 <p>The <strong>Java Executable</strong> option allows you to specify the executable to run the Eclipse Application with. On <em>Windows</em>, for example, the default executable is <em>javaw.exe</em>, which you can override and use <em>java.exe</em>, if desired. </p>

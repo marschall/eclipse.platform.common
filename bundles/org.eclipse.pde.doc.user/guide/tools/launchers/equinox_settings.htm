@@ -11,13 +11,36 @@
 	font-size: 18px;
 	font-weight: bold;
 }
+.style2 {
+	font-size: 12pt;
+	font-weight: bold;
+}
 -->
 </style>
 </head>
 
 <body>
 <p class="style1">Settings Tab</p>
-<p class="style1">&nbsp;</p>
+<p>The <strong>Setting Tab</strong> allows you to customize the Java runtime environment and configuration area settings of the launch configuration. </p>
 <p class="style1"><img src="../../images/launchers/launcher_equinox_settings.png" alt="Equinox Settings" hspace="30"> </p>
+<p class="style1">&nbsp;</p>
+<p class="style2">Java Executable</p>
+<p>The <STRONG>Java Executable</STRONG> option allows you to specify the   executable to run the Equinox OSGi framwork with. On <EM>Windows</EM>, for   example, the default executable is <EM>javaw.exe</EM>, which you can override   and use <EM>java.exe</EM>, if desired. </p>
+<p>&nbsp; </p>
+<p class="style2">Java Runtime Environment</p>
+<p>You can test your bundle against the Java Runtime Environment (JRE) of your   choice, and this runtime JRE does not necessarily have to be the same JRE   against which the bundle compiles in the workspace. </p>
+<p>The <STRONG>Runtime JRE</STRONG> combo box is populated with all the JREs   listed on the <STRONG>Windows &gt; Preferences.... &gt; Java &gt; Installed   JREs</STRONG> preference page. You can dynamically add more JREs to the list of   installed JREs by pressing the <STRONG>Installed JREs...</STRONG> button, which   will open the <STRONG>Installed JREs</STRONG> preference page. </p>
+<p>&nbsp;</p>
+<p class="style2">Bootstrap Entries</p>
+<p>By default, the only entry on the launch configuration classpath is the <em>${target_home}/startup.jar</em>, which houses the org.eclipse.core.launcher.Main class that contains the bootstrap code. ${target_home} refers to the location of the target platform as specified on the <strong>Window &gt; Preferences... &gt; Plug-in Development &gt; Target Platform</strong> preference page. </p>
+<p> The <STRONG>Bootstrap Entries</STRONG> field   allows you to specify and append additional locations to the classpath, if required.</p>
+<p>&nbsp;</p>
+<p class="style2">Configuration Area</p>
+<p>Every Equinox OSGi framework instance has a unique configuration area which   contains metadata, caches and configuration files read by the framework and possibly other bundles. </p>
+<p>Typically, the location of the configuration is not important and the user   needs not to worry about its contents. PDE therefore generates a unique   configuration area for every launch in its own metadata area. This configuration   area is deleted when the launch configuration is deleted.</p>
+<p>The location of the configuration area can be set by the user, if desired.   Variables in the directory path are supported, thus making launch configurations   sharable among team members.</p>
+<p>You also have the option to clear the configuration area prior to launching,   which you may find useful if you are testing how bundles cache data in that   area. </p>
+<p>&nbsp; </p>
+<p class="style1">&nbsp;</p>
 </body>
 </html>

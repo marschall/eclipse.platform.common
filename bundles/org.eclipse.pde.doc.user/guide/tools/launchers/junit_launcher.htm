@@ -4,8 +4,42 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <title>JUnit Plug-in Test Launcher</title>
+<link href="../../book.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.style2 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+-->
+</style>
 </head>
 
 <body>
+<p class="style1">JUnit Plug-in Test Launcher</p>
+<p>PDE provides an Equinox OSGi Framework launcher which allows you launch an OSGi framework and test or debug your OSGi bundle. As with all other launchers in Eclipse (e.g. the Java Application and Java Applet launchers,...), the Equinox OSGi Framework launcher can be invoked via a shortcut and its launch configurations are centrally managed in the <strong>Launch Configuration Dialog</strong>. </p>
+<p>Note that in Eclipse, the words <em>plug-in </em>and <em>bundle</em> are used interchangeably. <em>A plug-in is a bundle and a bundle is a plug-in</em>. </p>
+<p>&nbsp;</p>
+<p class="style2">Launching via a Shortcut</p>
+<p>A quick way to test a bundle is by launching the Equinox OSGi framework via<strong> Run As &gt; Equinox Framework</strong> from the context menu of a plug-in project. To launch in debug mode, choose <strong>Debug As &gt; Equinox Framework</strong> from the context menu of the plug-in project.   </p>
+<p>When a shortcut is used, PDE searches for existing Equinox OSGI framework launch configurations and creates a new launch configuration only if none were found. If a single launch configuration is found, it is used. If multiple configurations are found, PDE presents a selection dialog containing all existing Equinox OSGi framework launch configurations and prompts the user to choose. </p>
+<p>By default, PDE launches the OSGi framework with the <em>-console</em> program argument. This options enables the OSGi console allowing you to execute many commands such as installing, starting and stopping bundles. </p>
+<p>&nbsp;</p>
+<p class="style2">Customizing a Launch Configuration</p>
+<p>To have full control over how to launch the Equinox OSGi framework, you can create and customize a launch configuration in the <strong>Launch Configuration Dialog</strong>.</p>
+<p>The Launch Configuration Dialog can be invoked via <strong>Run &gt; Run...</strong> or <strong>Debug &gt; Debug...</strong> from the top level menu.    A new Equinox OSGi framework launch configuration can be created by double-cliking on the <strong>Equinox OSGi Framework</strong> node in the tree viewer to the left. </p>
+<p>An Equinox OSGi framework launch configuration contains six tabs allowing you to customize all aspects of the test launch. Refer to the following documents for more details: </p>
+<ul><li><a href="equinox_plugins.htm">Plug-ins Tab</a></li>
+  <li><a href="equinox_args.htm">Arguments Tab </a></li>
+  <li><a href="equinox_settings.htm">Settings Tab</a></li>
+  <li><a href="tracing.htm">Tracing Tab</a></li>
+  <li><a href="environment.htm">Environment Tab</a></li>
+  <li><a href="common.htm">Common Tab</a></li>
+</ul>
+<p>&nbsp;</p>
 </body>
 </html>

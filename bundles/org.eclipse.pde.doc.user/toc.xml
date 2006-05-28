@@ -203,9 +203,33 @@
 			<topic label="Generating ANT scripts" href="guide/tools/miscellaneous/generating_ant_scripts.htm"/>
 		</topic>
 		<topic label="Launchers" href="guide/tools/launchers/launchers.htm">
-			<topic label="Eclipse Application Launcher" href="guide/tools/launchers/eclipse_application_launcher.htm"/>
-			<topic label="Equinox OSGi Framework Launcher" href="guide/tools/launchers/equinox_launcher.htm"/>
-			<topic label="JUnit Plug-in Test Launcher" href="guide/tools/launchers/junit_launcher.htm"/>
+			<topic label="Eclipse Application Launcher" href="guide/tools/launchers/eclipse_application_launcher.htm">
+				<topic label="Main Tab" href="guide/tools/launchers/eclipse_main.htm"/>
+				<topic label="Arguments Tab" href="guide/tools/launchers/eclipse_args.htm"/>
+				<topic label="Plug-ins Tab" href="guide/tools/launchers/eclipse_plugins.htm"/>
+				<topic label="Configuration Tab" href="guide/tools/launchers/configuration.htm"/>
+				<topic label="Tracing Tab" href="guide/tools/launchers/tracing.htm"/>
+				<topic label="Environment Tab" href="guide/tools/launchers/environment.htm"/>
+				<topic label="Common Tab" href="guide/tools/launchers/common.htm"/>
+			</topic>
+			<topic label="Equinox OSGi Framework Launcher" href="guide/tools/launchers/equinox_launcher.htm">
+				<topic label="Plug-ins Tab" href="guide/tools/launchers/equinox_plugins.htm"/>
+				<topic label="Arguments Tab" href="guide/tools/launchers/equinox_args.htm"/>
+				<topic label="Settings Tab" href="guide/tools/launchers/equinox_settings.htm"/>
+				<topic label="Tracing Tab" href="guide/tools/launchers/tracing.htm"/>
+				<topic label="Environment Tab" href="guide/tools/launchers/environment.htm"/>
+				<topic label="Common Tab" href="guide/tools/launchers/common.htm"/>
+			</topic>
+			<topic label="JUnit Plug-in Test Launcher" href="guide/tools/launchers/junit_launcher.htm">
+				<topic label="Test Tab" href="guide/tools/launchers/junit_test.htm"/>
+				<topic label="Main Tab" href="guide/tools/launchers/junit_main.htm"/>
+				<topic label="Arguments Tab" href="guide/tools/launchers/junit_args.htm"/>
+				<topic label="Plug-ins Tab" href="guide/tools/launchers/junit_plugins.htm"/>
+				<topic label="Configuration Tab" href="guide/tools/launchers/configuration.htm"/>
+				<topic label="Tracing Tab" href="guide/tools/launchers/tracing.htm"/>
+				<topic label="Environment Tab" href="guide/tools/launchers/environment.htm"/>
+				<topic label="Common Tab" href="guide/tools/launchers/common.htm"/>
+			</topic>
 		</topic>
 		<topic label="Preferences" href="guide/tools/preference_pages/preferences.htm">
 			<topic label="General Plug-in Development Preferences" href="guide/tools/preference_pages/plug_in_development.htm"/>

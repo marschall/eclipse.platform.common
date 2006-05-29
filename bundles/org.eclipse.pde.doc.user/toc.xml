@@ -33,16 +33,22 @@
 			<topic label="Create Help Index" href="guide/tools/pde_actions/create_help_index.htm"/>
 			<topic label="Preview Reference Document" href="guide/tools/pde_actions/preview_reference_document.htm"/>
 		</topic>
-		<topic label="New Wizards" href="guide/tools/new_wizards/new_wizards.htm">
-			<topic label="New Plug-in Project Wizard" href="guide/tools/new_wizards/new_plugin_project.htm"/>
-			<topic label="New Plug-in from existing JAR archives Wizard" href="guide/tools/new_wizards/new_plugin_from_jar.htm"/>
-			<topic label="New Fragment Project Wizard" href="guide/tools/new_wizards/new_fragment_project.htm"/>
-			<topic label="New Extension Point Schema Wizard" href="guide/tools/new_wizards/new_extension_point_schema.htm"/>
-			<topic label="New Feature Project Wizard" href="guide/tools/new_wizards/new_feature_project.htm"/>
-			<topic label="New Feature Patch Wizard" href="guide/tools/new_wizards/new_feature_patch.htm"/>
-			<topic label="New Update Site Project Wizard" href="guide/tools/new_wizards/new_udpate_site_project.htm"/>
-			<topic label="New Product Configuration Wizard" href="guide/tools/new_wizards/new_product_config.htm"/>
-			<topic label="New Target Definition Wizard" href="guide/tools/new_wizards/new_target_definition.htm"/>
+		<topic label="New Project Creation Wizards" href="guide/tools/project_wizards/new_project_wizards.htm">
+			<topic label="Plug-in Project" href="guide/tools/project_wizards/new_plugin_project.htm">
+				<topic label="Plug-in Project Structure" href="guide/tools/project_wizards/plugin_structure.htm"/>
+				<topic label="Plug-in Content" href="guide/tools/project_wizards/plugin_content.htm"/>
+				<topic label="Templates" href="guide/tools/project_wizards/plugin_templates.htm"/>
+			</topic>
+			<topic label="Plug-in from existing JAR archives" href="guide/tools/project_wizards/plugin_from_archives.htm"/>
+			<topic label="Fragment Project" href="guide/tools/project_wizards/new_fragment_project.htm"/>
+			<topic label="Feature Project" href="guide/tools/project_wizards/new_feature_project.htm"/>
+			<topic label="Feature Patch" href="guide/tools/project_wizards/new_feature_patch.htm"/>
+			<topic label="Update Site Project" href="guide/tools/project_wizards/new_update_site_project.htm"/>
+		</topic>
+		<topic label="New File Creation Wizards" href="guide/tools/file_wizards/new_file_wizards.htm">
+			<topic label="Product Configuration" href="guide/tools/file_wizards/new_product_config.htm"/>
+			<topic label="Target Definition" href="guide/tools/file_wizards/new_target_definition.htm"/>
+			<topic label="Extension Point Schema" href="guide/tools/file_wizards/new_extension_point_schema.htm"/>
 		</topic>
 		<topic label="Import Wizards" href="guide/tools/import_wizards/import_wizards.htm">
 			<topic label="Import Plug-ins and Fragments Wizard" href="guide/tools/import_wizards/import_plugins_fragments.htm"/>

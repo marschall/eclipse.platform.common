@@ -11,12 +11,36 @@
 	font-size: 18px;
 	font-weight: bold;
 }
+.style3 {
+	font-size: 12pt;
+	font-weight: bold;
+}
 -->
 </style>
 </head>
 
 <body>
 <p class="style1">Feature Patch</p>
+<p>The<strong> New Feature Patch</strong> creation  wizard is available under <strong>File &gt; New &gt; Project... &gt; Plug-in Development &gt; Feature Patch</strong> from the top level menu. </p>
+<p><img src="../../images/new_wizards/feature_patch.PNG" alt="Feature Patch" hspace="30"></p>
 <p>&nbsp;</p>
+<p class="style3">Project Settings </p>
+<p>It is recommended to use the reverse domain naming convention (e.g. com.example.patch) for the <strong>project name</strong>. </p>
+<p>As for the <strong>project location</strong>, the default location is a subdirectory nested inside the workspace location. The project location can be changed to any writable location by unchecking the <strong>Use default location</strong> checkbox and entering the location of choice.</p>
+<p>&nbsp;</p>
+<p class="style3">Feature Patch Properties </p>
+<p>A feature patch <strong>ID</strong> is mandatory and must comply with the <a href="../../../../org.eclipse.platform.doc.isv/reference/misc/plugin_manifest.html">plugin.dtd</a>.</p>
+<p>A feature patch <strong>name</strong> is the translatable presentation name of the plug-in. This field is required. </p>
+<p>A feature patch <strong>provider</strong> is the translatable name of the feature provider. This field is optional. </p>
+<p>An <strong>install handler library</strong> may be optionally associated with a feature patch if the patch needs to do specific and additional setup upon installation. Specifying an install handler library in the wizard results in the generation of a Java project. Otherwise, the feature project is a simple project by default.</p>
+<p>&nbsp;</p>
+<p class="style3">Properties of Patched Feature</p>
+<p>The <strong>ID</strong>, <strong>name</strong> and <strong>version</strong> of the feature being patched must be specified. These attributes must match those of a feature found in either the workspace or the target. </p>
+<p>&nbsp;</p>
+<p class="style3">Feature Patch Project Structure</p>
+<p>A feature patch has a standard feature project structure and can be edited using the PDE feature manifest editor. </p>
+<p><img src="../../images/new_wizards/feature_explorer.PNG" alt="Feature Explorer" hspace="30"> </p>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
 </body>
 </html>

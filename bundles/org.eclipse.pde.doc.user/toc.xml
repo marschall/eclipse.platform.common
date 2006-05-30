@@ -40,7 +40,10 @@
 				<topic label="Templates" href="guide/tools/project_wizards/plugin_templates.htm"/>
 			</topic>
 			<topic label="Plug-in from existing JAR archives" href="guide/tools/project_wizards/plugin_from_archives.htm"/>
-			<topic label="Fragment Project" href="guide/tools/project_wizards/new_fragment_project.htm"/>
+			<topic label="Fragment Project" href="guide/tools/project_wizards/new_fragment_project.htm">
+				<topic label="Fragment Project Structure" href="guide/tools/project_wizards/fragment_structure.htm"/>
+				<topic label="Fragment Content" href="guide/tools/project_wizards/fragment_content.htm"/>
+			</topic>
 			<topic label="Feature Project" href="guide/tools/project_wizards/new_feature_project.htm"/>
 			<topic label="Feature Patch" href="guide/tools/project_wizards/new_feature_patch.htm"/>
 			<topic label="Update Site Project" href="guide/tools/project_wizards/new_update_site_project.htm"/>

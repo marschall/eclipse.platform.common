@@ -34,12 +34,12 @@
 <p>Whether or not a plug-in project should be created as a Java project depends on whether the plug-in will contribute code. Most plug-ins do contribute code and should therefore be housed inside a Java project. Other plug-ins, such as documentation plug-ins do not contribute code and can therefore be contained in simple projects.</p>
 <p>&nbsp;</p>
 <p class="style2">Eclipse vs. OSGi Framework </p>
-<p>The Eclipse vs. OSGi framework choice controls the code generation options available on the <a href="plugin_content.htm">Plug-in Content</a> page as well as the list of <a href="plugin_templates.htm">templates</a> available. </p>
-<p>Eclipse plug-ins are OSGi bundles that use the Eclipse extension registry. Most Eclipse plug-ins do use this registry, which is available in the runtime layer, and that is why the <strong>Eclipse target</strong> is selected by default. </p>
+<p>The <strong>Eclipse</strong> vs. <strong>OSGi framework</strong> choice controls the code generation options available on the <a href="plugin_content.htm">Plug-in Content</a> page as well as the list of <a href="plugin_templates.htm">templates</a> available. </p>
+<p>Eclipse plug-ins are OSGi bundles that use the Eclipse extension registry. Most Eclipse plug-ins do use this registry, which is available in the runtime layer, and that is why the <strong>Eclipse</strong> target is selected by default. </p>
 <p>If you do not intend to use the extension registry, then you should use the <strong>OSGi framework</strong> option. With this option, you would not end up with dependencies on the runtime layer as PDE would restrict the templates available to you and the code generated for you to the OSGi layer. </p>
 <p>&nbsp;</p>
 <p class="style2">Equinox vs. Standard</p>
-<p>When targetting an OSGi framework, you have a choice between the <strong>Equinox</strong> and <strong>standard</strong> frameworks. The Equinox OSGi framework augments the <em>MANIFEST.MF</em> content with Eclipse-specific headers (e.g. <strong>Eclipse-LazyStart</strong>) and directives (e.g. <strong>x-friends</strong>). If you do not wish to use this Eclipse-specific headers and attributes, then choose the <strong>standard</strong> option. </p>
+<p>When targetting an OSGi framework, you have a choice between the <strong>Equinox</strong> and <strong>standard</strong> frameworks. The Equinox OSGi framework augments the <em>MANIFEST.MF</em> content with Eclipse-specific headers (e.g. <strong>Eclipse-LazyStart</strong>, <strong>Eclipse-PlatformFilter</strong>) and directives (e.g. <strong>x-friends</strong>). If you do not wish to use this Eclipse-specific headers and attributes, then choose the <strong>standard</strong> option. </p>
 <p>&nbsp; </p>
 <p>&nbsp;</p>
 </body>

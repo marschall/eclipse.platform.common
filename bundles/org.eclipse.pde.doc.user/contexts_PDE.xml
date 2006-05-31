@@ -81,23 +81,46 @@
 		<description>On this page, you can search for references to and declarations of plug-ins, fragments and extension points.
 The search can be extended beyond workspace resources to include external plug-ins. </description>
 	</context>
+
+
+<!-- START:  Launchers -->
+
 	<context id="launcher_basic">
 		<description>This page allows you to set the basic program arguments to run the configuration.</description>
-		<topic label="Running a plug-in" href="guide/pde_running.htm"/>
+		<topic label="Eclipse Application Launcher Main Tab" 
+		       href="guide/tools/launchers/eclipse_main.htm"/>
+		<!-- Note:  This context ID is shared between the Eclipse Application Launcher Main tab 
+		            and JUnit Plug-in Test Launcher Main tab.  Limitation at this point which
+		            may cause confusion
+		  -->
 	</context>
 	<context id="launcher_advanced">
 		<description>This page allows you to run your configuration with only a subset of the plug-ins.</description>
-		<topic label="Choosing plug-ins to run" href="guide/pde_running_plugins.htm"/>
+		<topic label="Eclipse Application Launcher Plug-ins Tab" 
+			   href="guide/tools/launchers/eclipse_plugins.htm"/>
+		<!-- Note:  This context ID is shared between the Eclipse Application Launcher Plug-ins tab 
+		            and Equinox OSGi Framework Launcher Plug-ins tab.  Limitation at this point which
+		            may cause confusion
+		  -->		
 	</context>
 	<context id="launcher_tracing">
 		<description>This page allows you to use tracing flags that will cause tracing information to be printed to the standard output (or the console view) when you run the configuration.</description>
-		<topic label="Running with tracing" href="guide/pde_running_tracing.htm"/>
+		<topic label="Launcher Tracing Tab" 
+			   href="guide/tools/launchers/tracing.htm"/>
+		<!-- Note:  Shared context ID between all Launchers that have a Tracing Tab -->
 	</context>
 	<context id="launcher_configuration">
 		<description>This page allows you to specify the plug-ins that are to be automatically installed, and optionally started, by the runtime.</description>
-		<topic label="Running a plug-in" href="guide/pde_running.htm"/>
-		<topic label="Choosing plug-ins to run" href="guide/pde_running_plugins.htm"/>
+		<topic label="Eclipse Application Launcher Configuration Tab" 
+		 	   href="guide/tools/launchers/configuration.htm"/>
+		<!-- Note:  This context ID is shared between the Eclipse Application Launcher Configuration tab 
+		            and JUnit Plug-in Test Launcher Configuration tab.  Limitation at this point which
+		            may cause confusion
+		  -->			
 	</context>
+
+<!-- END:  Launchers -->	
+	
     <context id="history_list_dialog">
         <description>A dialog for re-opening previously viewed plug-in dependencies.</description>
     </context>
@@ -374,86 +397,95 @@ If simple self-hosting is used, the view allows you to browse external plug-ins 
 		<description>This page allows you to create a new target definition</description>
 	</context>
 
+<!-- START:  New Project Creation Wizard pages -->
+
+	<!-- New Plug-in Project -->
 
 	<context id="new_project_structure_page">
-		<description>This wizard helps you create a new plug-in project.
-If the plug-in is to contain resources only, create a simple project.
-Otherwise, create a Java project.</description>
-		<topic label="Creating a plug-in project" href="guide/pde_creating.htm"/>
+		<description>This wizard helps you create a new plug-in project. If the plug-in is to contain resources only, create a simple project. Otherwise, create a Java project.</description>
+		<topic label="Plug-in Project Structure" 
+			   href="guide/tools/project_wizards/plugin_structure.htm"/>
 	</context>
 	<context id="new_project_required_data">
 		<description>Data entered on this page is used to customize the generated manifest file and top level plug-in Java class.</description>
-		<topic label="Creating a plug-in project" href="guide/pde_creating.htm"/>
+		<topic label="Plug-in Content"
+			   href="guide/tools/project_wizards/plugin_content.htm"/>
 	</context>
 	<context id="new_project_code_gen_page">
-		<description>For a quick start, use the code generation wizards to create a plug-in project containing a working extension.
-You can customize a plug-in to contain any combination of the available extension templates by choosing the 'Custom Plug-in Wizard' option.</description>
-		<topic label="Creating a plug-in project" href="guide/pde_creating.htm"/>
+		<description>For a quick start, use the code generation wizards to create a plug-in project containing a working extension.  You can customize a plug-in to contain any combination of the available extension templates by choosing the 'Custom Plug-in Wizard' option.</description>
+		<topic label="Templates"
+			   href="guide/tools/project_wizards/plugin_templates.htm"/>
 	</context>
 	
+	<!-- New Fragment Project -->
+	
 	<context id="new_fragment_structure_page">
-		<description>This wizard helps you create a new fragment project.
-If the fragment is to contain resources only, create a simple project.
-Otherwise, create a Java project.</description>
-		<topic label="Fragments" href="guide/pde_fragment.htm"/>
-		<topic label="Fragment example" href="guide/pde_fragment_example.htm"/>
+		<description>This wizard helps you create a new fragment project. If the fragment is to contain resources only, create a simple project. Otherwise, create a Java project.</description>
+		<topic label="Fragment Project Structure"
+			   href="guide/tools/project_wizards/fragment_structure.htm"/>
 	</context>
 	<context id="new_fragment_required_data">
 		<description>This page specifies the fragment's target plug-in and other data required to generate the fragment's manifest file.</description>
-		<topic label="Fragments" href="guide/pde_fragment.htm"/>
-		<topic label="Fragment example" href="guide/pde_fragment_example.htm"/>
+		<topic label="Fragment Content"
+			   href="guide/tools/project_wizards/fragment_content.htm"/>
 	</context>	
 	
+	<!-- Plug-in From Existing JAR Archives Project -->
+	
 	<context id="new_library_plugin_jar_page">
-		<description>This wizard helps you create a new plug-in project from existing JAR archives.
-Use this page to specify archives to be included in the plug-in.
-The buttons allow adding JAR archives from the workspace or the file system.</description>
-		<topic label="Creating a plug-in project" href="guide/pde_creating.htm"/>
+		<description>This wizard helps you create a new plug-in project from existing JAR archives. Use this page to specify archives to be included in the plug-in. The buttons allow adding JAR archives from the workspace or the file system.</description> 
+		<topic label="Plug-in From Existing JAR Archives"
+			   href="guide/tools/project_wizards/plugin_from_archives.htm"/>
 	</context>
-
 	<context id="new_library_plugin_structure_page">
-		<description>This wizard helps you create a new plug-in project from existing JAR archives.
-Data entered on this page is used to customize the generated manifest file.</description>
-		<topic label="Creating a plug-in project" href="guide/pde_creating.htm"/>
+		<description>This wizard helps you create a new plug-in project from existing JAR archives. Data entered on this page is used to customize the generated manifest file.</description>
+		<topic label="Plug-in From Existing JAR Archives"
+			   href="guide/tools/project_wizards/plugin_from_archives.htm"/>
 	</context>
-
 	<context id="new_feature_main">
 		<description>This wizard creates a new feature project that can be used to package plug-ins.</description>	
 		<topic label="Features" href="guide/pde_features.htm"/>
 		<topic label="Setting up a feature project" href="guide/pde_feature_setup.htm"/>
 	</context>
+	<!-- New Feature Project -->
+
 	<context id="new_feature_data">
 		<description>This page specifies basic data about the feature.</description>	
-		<topic label="Features" href="guide/pde_features.htm"/>
-		<topic label="Setting up a feature project" href="guide/pde_feature_setup.htm"/>
+		<topic label="Feature Project" 
+			   href="guide/tools/project_wizards/new_feature_project.htm"/>
 	</context>
 	<context id="new_feature_referenced_plugins">
 		<description>The plug-ins and fragments selected on this page will be packaged in the feature.</description>
-		<topic label="Features" href="guide/pde_features.htm"/>
-		<topic label="Setting up a feature project" href="guide/pde_feature_setup.htm"/>
+		<topic label="Feature Project" 
+			   href="guide/tools/project_wizards/new_feature_project.htm"/>
 	</context>
 	
+	<!-- New Feature Patch -->
+
 	<context id="new_patch_main">
 		<description>This wizard creates a patch to an existing feature.</description>	
 		<topic label="Features" href="guide/pde_features.htm"/>
 		<topic label="Setting up a feature project" href="guide/pde_feature_setup.htm"/>
-	</context>
+	</context>	
 	<context id="new_patch_data">
 		<description>This page specifies basic data about the patch and the feature it targets.</description>	
-		<topic label="Features" href="guide/pde_features.htm"/>
-		<topic label="Setting up a feature project" href="guide/pde_feature_setup.htm"/>
+		<topic label="Feature Patch" 
+			   href="guide/tools/project_wizards/new_feature_patch.htm"/>
 	</context>
 	<context id="new_patch_referenced_plugins">
 		<description>The plug-ins and fragments selected on this page will be packaged in the patch.</description>
 		<topic label="Features" href="guide/pde_features.htm"/>
 		<topic label="Setting up a feature project" href="guide/pde_feature_setup.htm"/>
-	</context>
+	</context>	
+	<!-- New Feature Patch -->
 	
 	<context id="new_site_main">
 		<description>This wizard creates an update site project where you can publish features for the Update Manager to find.</description>
-		<topic label="Update Sites" href="guide/pde_sites.htm"/>
-		<topic label="Setting up an update site project" href="guide/pde_site_setup.htm"/>
+		<topic label="Update Site Project" 
+			   href="guide/tools/project_wizards/new_update_site_project.htm"/>
 	</context>
+
+<!-- END:  New Project Creation Wizard pages -->
 	
 	<context id="new_schema">
 		<description>All extensions that extend the specified extension point will be validated against this schema.</description>
@@ -588,7 +620,7 @@ If present, the JNLP option allows generation of manifests for Java Web Start de
 	</context>
 	<context id="library_plugin_jars">
 		<description>Add JAR archives to include in the new plug-in.  JAR files can be imported from existing workspace projects, or external directories. </description>
-	</context>
+	</context>	
 	<context id="plugin_working_set">
 		<description>Create a new working set by selecting plug-ins or fragments that will belong to it.</description>
 	</context>

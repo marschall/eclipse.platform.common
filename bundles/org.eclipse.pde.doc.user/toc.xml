@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?NLS TYPE="org.eclipse.help.toc"?>
 <toc label="Plug-in Development Environment Guide">
+<!--
 	<topic label="Plug-in Development Concepts">
 		<topic label="Plug-ins" href="concepts/plug_ins.htm"/>
 		<topic label="Fragments" href="concepts/fragments.htm"/>
@@ -9,6 +10,7 @@
 		<topic label="Update Sites" href="concepts/update_sites.htm"/>
 		<topic label="Target Platform" href="concepts/target_platform.htm"/>
 	</topic>
+-->
 	<topic label="Tools">
 		<topic label="New Project Creation Wizards" href="guide/tools/project_wizards/new_project_wizards.htm">
 			<topic label="Plug-in Project" href="guide/tools/project_wizards/new_plugin_project.htm">
@@ -64,6 +66,7 @@
 				<topic label="Feature Dependencies" href="guide/tools/editors/feature_editor/dependencies.htm"/>
 				<topic label="Feature Installation" href="guide/tools/editors/feature_editor/installation.htm"/>
 			</topic>
+			<!--
 			<topic label="Site Manifest Editor" href="guide/tools/editors/site_editor/site_editor.htm">
 				<topic label="Site Map" href="guide/tools/editors/site_editor/site_map.htm"/>
 				<topic label="Archives" href="guide/tools/editors/site_editor/archives.htm"/>
@@ -82,6 +85,7 @@
 				<topic label="Overview" href="guide/tools/editors/target_editor/overview.htm"/>
 				<topic label="Environment" href="guide/tools/editors/target_editor/environment.htm"/>
 			</topic>
+			-->
 		</topic>
 		<topic label="Launchers" href="guide/tools/launchers/launchers.htm">
 			<topic label="Eclipse Application Launcher" href="guide/tools/launchers/eclipse_application_launcher.htm">
@@ -130,6 +134,7 @@
 		</topic>
 	</topic>
 	<topic label="Tasks">
+	<!--
 		<topic label="Create Ant Build File" href="guide/tools/pde_actions/create_ant_build_file.htm"/>
 		<topic label="Version Synchronization" href="guide/tools/miscellaneous/version_synchronization.htm"/>
 		<topic label="Generating ANT scripts" href="guide/tools/miscellaneous/generating_ant_scripts.htm"/>
@@ -144,6 +149,7 @@
 		<topic label="Convert Help files to XHTML..." href="guide/tools/pde_actions/convert_help_to_xhtml.htm"/>
 		<topic label="Create Help Index" href="guide/tools/pde_actions/create_help_index.htm"/>
 		<topic label="Preview Reference Document" href="guide/tools/pde_actions/preview_reference_document.htm"/>
+	-->
 	</topic>
 	<topic label="Reference">
 		<link toc="topics_Reference.xml" />

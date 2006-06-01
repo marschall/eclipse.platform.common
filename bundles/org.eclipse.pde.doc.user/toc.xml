@@ -3,12 +3,11 @@
 <toc label="Plug-in Development Environment Guide">
 	<topic label="Plug-in Development Concepts">
 		<topic label="Plug-ins" href="concepts/plug_ins.htm"/>
-		<topic label="Extensions and Extension Points" href="concepts/extensions_extensions_points.htm"/>
 		<topic label="Fragments" href="concepts/fragments.htm"/>
 		<topic label="Features" href="concepts/features.htm"/>
 		<topic label="Products" href="concepts/products.htm"/>
 		<topic label="Update Sites" href="concepts/update_sites.htm"/>
-		<topic label="Target Platform" href="concepts/target_platform/target_platform.htm"/>
+		<topic label="Target Platform" href="concepts/target_platform.htm"/>
 	</topic>
 	<topic label="Tools">
 		<topic label="New Project Creation Wizards" href="guide/tools/project_wizards/new_project_wizards.htm">
@@ -41,51 +40,47 @@
 			<topic label="Product Export" href="guide/tools/export_wizards/export_product.htm"/>
 		</topic>
 		<topic label="Views" href="guide/tools/views/views.htm">
+			<topic label="Error Log" href="guide/tools/views/error_log.htm"/>
+			<topic label="Plug-in Registry" href="guide/tools/views/plugin_registry.htm"/>
 			<topic label="Plug-ins" href="guide/tools/views/plugins.htm"/>
 			<topic label="Plug-in Dependencies" href="guide/tools/views/plugin_dependencies.htm"/>
-			<topic label="Plug-in Registry" href="guide/tools/views/plugin_registry.htm"/>
-			<topic label="Error Log" href="guide/tools/views/error_log.htm"/>
 		</topic>
 		<topic label="Editors" href="guide/tools/editors/editors.htm">
-			<topic label="Plug-in Manifest Editor" href="guide/tools/editors/manifest_editor/manifest_editor.htm">
-				<topic label="Overview Page" href="guide/tools/editors/manifest_editor/overview_page/manifest_overview_page.htm"/>
-				<topic label="Dependencies Page" href="guide/tools/editors/manifest_editor/dependencies_page/plug_in_manifest_dependencies_page.htm"/>
-				<topic label="Runtime Page" href="guide/tools/editors/manifest_editor/runtime_page/runtime_page.htm">
-					<topic label="Access Rules" href="guide/tools/editors/manifest_editor/runtime_page/access_rules.htm"/>
+			<topic label="Plug-in Manifest Editor" href="guide/tools/editors/manifest_editor/editor.htm">
+				<topic label="Overview" href="guide/tools/editors/manifest_editor/overview.htm"/>
+				<topic label="Dependencies" href="guide/tools/editors/manifest_editor/dependencies.htm"/>
+				<topic label="Runtime" href="guide/tools/editors/manifest_editor/runtime.htm">
+					<topic label="Access Rules" href="guide/tools/editors/manifest_editor/access_rules.htm"/>
 				</topic>
-				<topic label="Extensions Page" href="guide/tools/editors/manifest_editor/extensions_page/extensions_page.htm"/>
-				<topic label="Extension Points Page" href="guide/tools/editors/manifest_editor/extension_points_page/extension_points_page.htm"/>
-				<topic label="Build Editor" href="guide/tools/editors/manifest_editor/manifest_build_editor.htm"/>
-				<topic label="Source Pages" href="guide/tools/editors/manifest_editor/plug_in_manifest_source_pages.htm"/>
-			</topic>
-			<topic label="Extension Point Schema Editor" href="guide/tools/editors/schema_editor/schema_editor.htm">
-				<topic label="Overview" href="guide/tools/editors/schema_editor/overview_page/schema_overview_page.htm"/>
-				<topic label="Definition" href="guide/tools/editors/schema_editor/definition_page/definition_page.htm"/>
-				<topic label="Source" href="guide/tools/editors/schema_editor/schema_source_page.htm"/>
+				<topic label="Extensions" href="guide/tools/editors/manifest_editor/extensions.htm"/>
+				<topic label="Extension Points" href="guide/tools/editors/manifest_editor/extension_points.htm"/>
+				<topic label="Build" href="guide/tools/editors/manifest_editor/build.htm"/>
 			</topic>
 			<topic label="Feature Manifest Editor" href="guide/tools/editors/feature_editor/feature_editor.htm">
-				<topic label="Overview" href="guide/tools/editors/feature_editor/overview_page/overview_page.htm"/>
-				<topic label="Information" href="guide/tools/editors/feature_editor/information_page/information_page.htm"/>
-				<topic label="Plug-ins" href="guide/tools/editors/feature_editor/plugins_page/plugins_page.htm"/>
-				<topic label="Included Features" href="guide/tools/editors/feature_editor/included_features_page/included_features_page.htm"/>
-				<topic label="Dependencies" href="guide/tools/editors/feature_editor/dependencies_page/feature_manifest_dependencies_page.htm"/>
-				<topic label="Installation" href="guide/tools/editors/feature_editor/installation_page/installation_page.htm"/>
-				<topic label="Source Pages" href="guide/tools/editors/feature_editor/feature_manifest_source_pages.htm"/>
+				<topic label="Overview" href="guide/tools/editors/feature_editor/overview.htm"/>
+				<topic label="Information" href="guide/tools/editors/feature_editor/information.htm"/>
+				<topic label="Plug-ins" href="guide/tools/editors/feature_editor/plugins.htm"/>
+				<topic label="Included Features" href="guide/tools/editors/feature_editor/included_features.htm"/>
+				<topic label="Dependencies" href="guide/tools/editors/feature_editor/dependencies.htm"/>
+				<topic label="Installation" href="guide/tools/editors/feature_editor/installation.htm"/>
 			</topic>
 			<topic label="Site Manifest Editor" href="guide/tools/editors/site_editor/site_editor.htm">
-				<topic label="Site Map" href="guide/tools/editors/site_editor/site_map_page/site_map_page.htm"/>
-				<topic label="Archives" href="guide/tools/editors/site_editor/archives_page/archives_page.htm"/>
-				<topic label="site.xml" href="guide/tools/editors/site_editor/source_page.htm"/>
+				<topic label="Site Map" href="guide/tools/editors/site_editor/site_map.htm"/>
+				<topic label="Archives" href="guide/tools/editors/site_editor/archives.htm"/>
+			</topic>
+			<topic label="Extension Point Schema Editor" href="guide/tools/editors/schema_editor/schema_editor.htm">
+				<topic label="Overview" href="guide/tools/editors/schema_editor/overview.htm"/>
+				<topic label="Definition" href="guide/tools/editors/schema_editor/definition.htm"/>
 			</topic>
 			<topic label="Product Configuration Editor" href="guide/tools/editors/product_configuration_editor/product_configuration_editor.htm">
-				<topic label="Overview" href="guide/tools/editors/product_configuration_editor/overview/product_configuration_overview.htm"/>
-				<topic label="Configuration" href="guide/tools/editors/product_configuration_editor/configuration/configuration.htm"/>
-				<topic label="Launcher" href="guide/tools/editors/product_configuration_editor/launcher/launcher.htm"/>
-				<topic label="Branding" href="guide/tools/editors/product_configuration_editor/branding/branding.htm"/>
+				<topic label="Overview" href="guide/tools/editors/product_configuration_editor/overview.htm"/>
+				<topic label="Configuration" href="guide/tools/editors/product_configuration_editor/configuration.htm"/>
+				<topic label="Launcher" href="guide/tools/editors/product_configuration_editor/launcher.htm"/>
+				<topic label="Branding" href="guide/tools/editors/product_configuration_editor/branding.htm"/>
 			</topic>
 			<topic label="Target Editor" href="guide/tools/editors/target_editor/target_editor.htm">
-				<topic label="Overview" href="guide/tools/editors/target_editor/overview/target_overview.htm"/>
-				<topic label="Environment" href="guide/tools/editors/target_editor/environment/environment.htm"/>
+				<topic label="Overview" href="guide/tools/editors/target_editor/overview.htm"/>
+				<topic label="Environment" href="guide/tools/editors/target_editor/environment.htm"/>
 			</topic>
 		</topic>
 		<topic label="Launchers" href="guide/tools/launchers/launchers.htm">

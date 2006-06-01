@@ -58,11 +58,11 @@
 			</topic>
 			<topic label="Feature Manifest Editor" href="guide/tools/editors/feature_editor/feature_editor.htm">
 				<topic label="Overview" href="guide/tools/editors/feature_editor/overview.htm"/>
-				<topic label="Information" href="guide/tools/editors/feature_editor/information.htm"/>
-				<topic label="Plug-ins" href="guide/tools/editors/feature_editor/plugins.htm"/>
+				<topic label="Feature Information" href="guide/tools/editors/feature_editor/information.htm"/>
+				<topic label="Included Plug-ins" href="guide/tools/editors/feature_editor/plugins.htm"/>
 				<topic label="Included Features" href="guide/tools/editors/feature_editor/included_features.htm"/>
-				<topic label="Dependencies" href="guide/tools/editors/feature_editor/dependencies.htm"/>
-				<topic label="Installation" href="guide/tools/editors/feature_editor/installation.htm"/>
+				<topic label="Feature Dependencies" href="guide/tools/editors/feature_editor/dependencies.htm"/>
+				<topic label="Feature Installation" href="guide/tools/editors/feature_editor/installation.htm"/>
 			</topic>
 			<topic label="Site Manifest Editor" href="guide/tools/editors/site_editor/site_editor.htm">
 				<topic label="Site Map" href="guide/tools/editors/site_editor/site_map.htm"/>

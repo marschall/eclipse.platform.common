@@ -6,5 +6,5 @@ plugin@org.eclipse.jdt.core=v_671, :pserver:anonymous@dev.eclipse.org:/cvsroot/e
 plugin@org.eclipse.jdt.core.tests.builder=v_671, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.compiler=v_671, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.model=v_671, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.core.tests.performance=v_671_perf_32xd, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.tests.performance=v_671_perf_32xe, :pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 

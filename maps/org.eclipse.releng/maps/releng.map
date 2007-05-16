@@ -1,16 +1,16 @@
 !****************  RELENG CONTRIBUTION  ******************************************************** 
-feature@master=v20060424,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master
-feature@master-equinox=v20061016,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-equinox
+feature@master=v20070430,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master
+feature@master-equinox=v20070511,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-equinox
 
 feature@com.ibm.icu.base=v20060418,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/com.ibm.icu.base
 
-feature@master-root=v20061218,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-root
+feature@master-root=v20070403,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/master-root
 feature@org.eclipse.releng.tools=v20070122,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk-feature/features/org.eclipse.releng.tools
 
-plugin@org.eclipse.releng.tools=v20070122,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.releng.tests=v20070201,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tools=v20070412,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.releng.tests=v20070426,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.pde.tools.versioning=v20061010,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.eclipse.sdk.tests-feature/plugins/org.eclipse.pde.tools.versioning
 
 !sample projects
-feature@org.eclipse.ant.test.feature.sample=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,platform-releng-home/examples/org.eclipse.ant.test.feature.sample
+feature@org.eclipse.jdt.test.feature.sample=HEAD,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,platform-releng-home/examples/org.eclipse.jdt.test.feature.sample

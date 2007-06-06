@@ -51,4 +51,4 @@ plugin@org.eclipse.webdav=r32x_v20060608,:pserver:anonymous@dev.eclipse.org:/cvs
 plugin@org.eclipse.core.tests.harness=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.resources=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.runtime=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.osgi.tests=v20060603,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.osgi.tests=R32x_v20070606,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

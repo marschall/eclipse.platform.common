@@ -22,5 +22,5 @@ plugin@org.eclipse.ui.browser=v20070524A,:pserver:anonymous@dev.eclipse.org:/cvs
 plugin@org.eclipse.ui.forms=v20070511,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**** Tests
-plugin@org.eclipse.ua.tests=v20071017_perf33x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ua.tests=v20080320_perf33x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.forms=v20071017_perf33x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

@@ -30,7 +30,7 @@ plugin@org.eclipse.ui.tests=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/c
 plugin@org.eclipse.ui.tests.rcp=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.navigator=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.views.properties.tabbed=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.ui.tests.performance=M20070411,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ui.tests.performance=M20081126-perf32x,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.tests.harness=I20060605-1400,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 !**com.ibm.icu **!

@@ -7,5 +7,5 @@ fragment@org.eclipse.jdt.compiler.tool=v_874,:pserver:anonymous@dev.eclipse.org:
 plugin@org.eclipse.jdt.core.tests.builder=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.compiler=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.core.tests.model=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.jdt.core.tests.performance=v_874_perf34xb,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.jdt.core.tests.performance=v_874_perf34xc,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.jdt.compiler.tool.tests=v_874,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

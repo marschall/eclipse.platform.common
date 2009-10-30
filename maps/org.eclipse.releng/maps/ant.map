@@ -4,7 +4,7 @@
 plugin@org.eclipse.ant.core=v20091028_r34x_264388,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ant.launching=v20091028_r34x_264388,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
-plugin@org.eclipse.ant.ui=v20091028_r34x_264388,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
+plugin@org.eclipse.ant.ui=v20091030_r34x_264388,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.eclipse.core.externaltools=v20091028_r34x_264388,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.ui.externaltools=v20091028_r34x_264388,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,

@@ -21,4 +21,4 @@ plugin@org.eclipse.jdt.junit.runtime=JUnit4_incubator_bug153429,:pserver:anonymo
 plugin@org.eclipse.jdt.junit4.runtime=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 
 plugin@org.junit4=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.junit,4.5.0=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.junit
+plugin@org.junit,4.7.0=JUnit4_incubator_bug153429,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,org.junit

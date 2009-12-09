@@ -26,8 +26,8 @@ plugin@org.eclipse.equinox.p2.selfhosting=CVS,tag=R3_6_api_cleanup_v20091125,cvs
 plugin@org.eclipse.equinox.p2.tools=CVS,tag=R3_6_api_cleanup_v20091202,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tools
 plugin@org.eclipse.equinox.p2.touchpoint.eclipse=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.touchpoint.eclipse
 plugin@org.eclipse.equinox.p2.touchpoint.natives=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.touchpoint.natives
-plugin@org.eclipse.equinox.p2.ui=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui
-plugin@org.eclipse.equinox.p2.ui.admin=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.admin
+plugin@org.eclipse.equinox.p2.ui=CVS,tag=R3_6_api_cleanup_v20091209,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui
+plugin@org.eclipse.equinox.p2.ui.admin=CVS,tag=R3_6_api_cleanup_v20091209,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.admin
 plugin@org.eclipse.equinox.p2.ui.sdk=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.sdk
 plugin@org.eclipse.equinox.p2.ui.sdk.scheduler=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.sdk.scheduler
 plugin@org.eclipse.equinox.p2.ui.admin.rcp=CVS,tag=R3_6_api_cleanup_v20091125,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ui.admin.rcp
@@ -38,7 +38,7 @@ plugin@org.eclipse.equinox.simpleconfigurator.manipulator=CVS,tag=R3_6_api_clean
 plugin@org.eclipse.equinox.p2.tests=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests
 plugin@org.eclipse.equinox.p2.tests.ui=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests.ui
 plugin@org.eclipse.equinox.p2.tests.verifier=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.tests.verifier
-plugin@org.eclipse.equinox.p2.ql=CVS,tag=R3_6_api_cleanup_v20091208,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ql
+plugin@org.eclipse.equinox.p2.ql=CVS,tag=R3_6_api_cleanup_v20091209,cvsRoot=:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,path=org.eclipse.equinox/p2/bundles/org.eclipse.equinox.p2.ql
 
 !# Bundles from ECF
 plugin@org.eclipse.ecf,3.0.0=GET,http://www.eclipse.org/external/rt/ecf/integration/platform/v2009-11-09_16-27-03/plugins/org.eclipse.ecf_3.0.0.v20091110-0042.jar,usetimestamp=true

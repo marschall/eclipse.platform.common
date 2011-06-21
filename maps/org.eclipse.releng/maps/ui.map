@@ -33,7 +33,7 @@ plugin@org.eclipse.ui.navigator.resources=GIT,tag=I20110421-1800,repo=file:///gi
 plugin@org.eclipse.ui.views.properties.tabbed=GIT,tag=I20110201-0800,repo=file:///gitroot/e4/eclipse.platform.ui.git,path=bundles/org.eclipse.ui.views.properties.tabbed
 
 plugin@org.eclipse.jface.tests.databinding=GIT,tag=I20110405-0800,repo=file:///gitroot/e4/eclipse.platform.ui.git,path=tests/org.eclipse.jface.tests.databinding
-plugin@org.eclipse.jface.tests.databinding.conformance=GIT,tag=I20100914-0100,repo=file:///gitroot/e4/eclipse.platform.ui.git,tests=tests/org.eclipse.jface.tests.databinding.conformance
+plugin@org.eclipse.jface.tests.databinding.conformance=GIT,tag=I20100914-0100,repo=file:///gitroot/e4/eclipse.platform.ui.git,path=tests/org.eclipse.jface.tests.databinding.conformance
 plugin@org.eclipse.ui.tests=GIT,tag=I20110602-0100,repo=file:///gitroot/e4/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests
 plugin@org.eclipse.ui.tests.rcp=GIT,tag=I20110425-1800,repo=file:///gitroot/e4/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests.rcp
 plugin@org.eclipse.ui.tests.navigator=GIT,tag=I20110425-1800,repo=file:///gitroot/e4/eclipse.platform.ui.git,path=tests/org.eclipse.ui.tests.navigator

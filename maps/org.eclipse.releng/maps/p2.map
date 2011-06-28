@@ -44,11 +44,11 @@ plugin@org.eclipse.equinox.p2.ql=GIT,tag=v20110510,repo=file:///gitroot/equinox/
 
 !# p2 features
 feature@org.eclipse.equinox.p2.core.feature=v20110519,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/p2/features/org.eclipse.equinox.p2.core.feature
-feature@org.eclipse.equinox.p2.discovery.feature=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=p2/features/org.eclipse.equinox.p2.discovery.feature
+feature@org.eclipse.equinox.p2.discovery.feature=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.discovery.feature
 feature@org.eclipse.equinox.p2.extras.feature=v20110519,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/p2/features/org.eclipse.equinox.p2.extras.feature
 feature@org.eclipse.equinox.p2.rcp.feature=v20110519,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/p2/features/org.eclipse.equinox.p2.rcp.feature
-feature@org.eclipse.equinox.p2.sdk=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=p2/features/org.eclipse.equinox.p2.sdk
-feature@org.eclipse.equinox.p2.user.ui=GIT,tag=v20110526,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=p2/features/org.eclipse.equinox.p2.user.ui
+feature@org.eclipse.equinox.p2.sdk=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.sdk
+feature@org.eclipse.equinox.p2.user.ui=GIT,tag=v20110526,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.user.ui
 
 !# p2 examples
 plugin@org.eclipse.equinox.p2.examples.rcp.cloud=GIT,tag=v20100604,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=p2/examples/org.eclipse.equinox.p2.examples.rcp.cloud

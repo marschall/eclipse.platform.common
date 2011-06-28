@@ -47,7 +47,7 @@ feature@org.eclipse.equinox.p2.core.feature=GIT,tag=v20110519,repo=file:///gitro
 feature@org.eclipse.equinox.p2.discovery.feature=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.discovery.feature
 feature@org.eclipse.equinox.p2.extras.feature=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.extras.feature
 feature@org.eclipse.equinox.p2.rcp.feature=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.rcp.feature
-feature@org.eclipse.equinox.p2.sdke=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.sdk
+feature@org.eclipse.equinox.p2.sdk=GIT,tag=v20110519,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.sdk
 feature@org.eclipse.equinox.p2.user.ui=GIT,tag=v20110526,repo=file:///gitroot/equinox/rt.equinox.p2.git,path=features/org.eclipse.equinox.p2.user.ui
 
 !# p2 examples

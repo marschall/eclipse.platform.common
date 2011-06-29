@@ -2,7 +2,7 @@
 
 !**** OSGi
 plugin@org.eclipse.osgi=GIT,tag=v20110502-1955,repo=file:///gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi
-plugin@org.eclipse.osgi.tests=GIT,v20110620,repo=file:///gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
+plugin@org.eclipse.osgi.tests=GIT,tag=v20110620,repo=file:///gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
 #plugin@org.eclipse.osgi=v20110620,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
 plugin@org.eclipse.osgi.services=v20110513,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.services
 plugin@org.eclipse.osgi.util=v20110110,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.util

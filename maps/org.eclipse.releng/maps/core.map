@@ -1,7 +1,9 @@
 !***************  CORE CONTRIBUTION  ********************************************************* 
 
 !**** OSGi
-plugin@org.eclipse.osgi=v20110620,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
+plugin@org.eclipse.osgi=GIT,tag=v20110502-1955,repo=file:///gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi
+plugin@org.eclipse.osgi.tests=GIT,v20110620,repo=file:///gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
+#plugin@org.eclipse.osgi=v20110620,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi
 plugin@org.eclipse.osgi.services=v20110513,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.services
 plugin@org.eclipse.osgi.util=v20110110,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.osgi.util
 
@@ -56,7 +58,8 @@ plugin@org.eclipse.equinox.weaving.caching.j9=v20110502,:pserver:anonymous@dev.e
 fragment@org.eclipse.equinox.weaving.hook=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/weaving/bundles/org.eclipse.equinox.weaving.hook
 
 !****launcher, startup.jar
-plugin@org.eclipse.equinox.launcher=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher
+#plugin@org.eclipse.equinox.launcher=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher
+plugin@org.eclipse.equinox.launcher=GIT,tag=v20110502,repo=file:///gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.equinox.launcher
 fragment@org.eclipse.equinox.launcher.win32.win32.x86=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.win32.win32.x86
 fragment@org.eclipse.equinox.launcher.win32.win32.x86_64=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.win32.win32.x86_64
 fragment@org.eclipse.equinox.launcher.win32.win32.ia64=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.equinox.launcher/fragments/org.eclipse.equinox.launcher.win32.win32.ia64
@@ -143,5 +146,5 @@ feature@org.eclipse.equinox.weaving.sdk=CVS,tag=v20110502,cvsRoot=:pserver:anony
 plugin@org.eclipse.core.tests.harness=v20110505,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.resources=v20110511-0607,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
 plugin@org.eclipse.core.tests.runtime=v20110620,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,
-plugin@org.eclipse.osgi.tests=v20110620,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi.tests
+#plugin@org.eclipse.osgi.tests=v20110620,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/framework/bundles/org.eclipse.osgi.tests
 plugin@org.eclipse.equinox.ds.tests=v20110502,:pserver:anonymous@dev.eclipse.org:/cvsroot/rt,,org.eclipse.equinox/compendium/bundles/org.eclipse.equinox.ds.tests

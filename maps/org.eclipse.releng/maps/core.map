@@ -1,14 +1,14 @@
 !***************  CORE CONTRIBUTION  ********************************************************* 
 
 !**** OSGi
-plugin@org.eclipse.osgi=GIT,tag=v20110808-1537,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi
+plugin@org.eclipse.osgi=GIT,tag=v20110822-1622,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi
 plugin@org.eclipse.osgi.services=GIT,tag=v20110711-1243,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.services
 plugin@org.eclipse.osgi.util=GIT,tag=v20110711-1243,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.util
 
 !**** Equinox
 plugin@org.eclipse.equinox.common=GIT,tag=v20110523,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.common
-plugin@org.eclipse.equinox.preferences=GIT,tag=v20110711,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.preferences
-plugin@org.eclipse.equinox.registry=GIT,tag=v20110718-1559,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.registry
+plugin@org.eclipse.equinox.preferences=GIT,tag=v20110823-1251,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.preferences
+plugin@org.eclipse.equinox.registry=GIT,tag=v20110815-1601,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.registry
 plugin@org.eclipse.equinox.supplement=GIT,tag=v20110711-1243,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi/supplement
 plugin@org.eclipse.equinox.app=GIT,tag=v20110321,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.app
 plugin@org.eclipse.equinox.device=GIT,tag=v20101217,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.device
@@ -40,7 +40,7 @@ plugin@org.eclipse.equinox.util=GIT,tag=v20110502,repo=git://git.eclipse.org/git
 plugin@org.eclipse.equinox.wireadmin=GIT,tag=v20110601,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.wireadmin
 
 !**** Security Contributions
-plugin@org.eclipse.equinox.security=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security
+plugin@org.eclipse.equinox.security=GIT,tag=v20110815-1601,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security
 plugin@org.eclipse.equinox.security.tests=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security.tests
 plugin@org.eclipse.equinox.security.ui=GIT,tag=v20101004,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security.ui
 fragment@org.eclipse.equinox.security.win32.x86=GIT,tag=v20100503,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.security.win32.x86
@@ -97,21 +97,21 @@ plugin@org.eclipse.core.expressions=GIT,tag=v20110228,repo=git://git.eclipse.org
 plugin@org.eclipse.core.expressions.tests=GIT,tag=v20091203,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.expressions.tests
 
 !**** Resources
-plugin@org.eclipse.core.resources=GIT,tag=v20110726b,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.resources
-fragment@org.eclipse.core.resources.win32=GIT,tag=v20100505-1235,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.resources.win32
-fragment@org.eclipse.core.resources.win32.x86=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.resources.win32.x86
-fragment@org.eclipse.core.resources.win32.ia64=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.resources.win32.ia64
-fragment@org.eclipse.core.resources.compatibility=GIT,tag=v20101108,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.resources.compatibility
+plugin@org.eclipse.core.resources=GIT,tag=v20110726b,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.resources
+fragment@org.eclipse.core.resources.win32=GIT,tag=v20100505-1235,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.resources.win32
+fragment@org.eclipse.core.resources.win32.x86=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.resources.win32.x86
+fragment@org.eclipse.core.resources.win32.ia64=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.resources.win32.ia64
+fragment@org.eclipse.core.resources.compatibility=GIT,tag=v20101108,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.resources.compatibility
 
 !**** File System
-plugin@org.eclipse.core.filesystem=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.filesystem
-fragment@org.eclipse.core.filesystem.win32.x86=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.filesystem.win32.x86
-fragment@org.eclipse.core.filesystem.win32.x86_64=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.filesystem.win32.x86_64
-fragment@org.eclipse.core.filesystem.win32.ia64=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.filesystem.win32.ia64
-fragment@org.eclipse.core.filesystem.linux.x86=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.filesystem.linux.x86
-fragment@org.eclipse.core.filesystem.linux.x86_64=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.filesystem.linux.x86_64
-fragment@org.eclipse.core.filesystem.solaris.sparc=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.filesystem.solaris.sparc
-fragment@org.eclipse.core.filesystem.aix.ppc=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.filesystem/fragments/org.eclipse.core.filesystem.aix.ppc
+plugin@org.eclipse.core.filesystem=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.filesystem
+fragment@org.eclipse.core.filesystem.win32.x86=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.filesystem.win32.x86
+fragment@org.eclipse.core.filesystem.win32.x86_64=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.filesystem.win32.x86_64
+fragment@org.eclipse.core.filesystem.win32.ia64=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.filesystem.win32.ia64
+fragment@org.eclipse.core.filesystem.linux.x86=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.filesystem.linux.x86
+fragment@org.eclipse.core.filesystem.linux.x86_64=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.filesystem.linux.x86_64
+fragment@org.eclipse.core.filesystem.solaris.sparc=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.filesystem.solaris.sparc
+fragment@org.eclipse.core.filesystem.aix.ppc=GIT,tag=v20110423-0524,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=bundles/org.eclipse.core.filesystem/fragments/org.eclipse.core.filesystem.aix.ppc
 
 !**** Legacy Runtime
 plugin@org.eclipse.core.boot=GIT,tag=v20100505,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=bundles/org.eclipse.core.boot
@@ -120,14 +120,14 @@ plugin@org.eclipse.core.runtime.compatibility.auth=GIT,tag=v20110110,repo=git://
 fragment@org.eclipse.core.runtime.compatibility.registry=GIT,tag=v20110505,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=bundles/org.eclipse.core.runtime.compatibility.registry
 
 !**** Other Core Code
-plugin@org.eclipse.pde.build=v20110728,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build
-plugin@org.eclipse.pde.build.tests=v20110728,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build.tests
-feature@org.eclipse.pde.builder=v20040624a,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build/feature
-feature@org.eclipse.pde.build.feature=v20110123,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build.feature
-feature@org.eclipse.pde.build.product.feature=v20110123,:pserver:anonymous@dev.eclipse.org:/cvsroot/eclipse,,pde/build/org.eclipse.pde.build.product.feature
+plugin@org.eclipse.pde.build=GIT,tag=v20110728,repo=git://git.eclipse.org/gitroot/pde/eclipse.pde.build.git,path=org.eclipse.pde.build
+plugin@org.eclipse.pde.build.tests=GIT,tag=v20110728,repo=git://git.eclipse.org/gitroot/pde/eclipse.pde.build.git,path=org.eclipse.pde.build.tests
+feature@org.eclipse.pde.builder=GIT,tag=v20040624a,repo=git://git.eclipse.org/gitroot/pde/eclipse.pde.build.git,path=org.eclipse.pde.build/feature
+feature@org.eclipse.pde.build.feature=GIT,tag=v20110123,repo=git://git.eclipse.org/gitroot/pde/eclipse.pde.build.git,path=org.eclipse.pde.build.feature
+feature@org.eclipse.pde.build.product.feature=GIT,tag=v20110123,repo=git://git.eclipse.org/gitroot/pde/eclipse.pde.build.git,path=org.eclipse.pde.build.product.feature
 
 !**** Features and Products
-feature@org.eclipse.core.runtime.feature=GIT,tag=v20110124,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=features/org.eclipse.core.runtime.feature
+feature@org.eclipse.core.runtime.feature=GIT,tag=v20110822-1716,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=features/org.eclipse.core.runtime.feature
 feature@org.eclipse.equinox.compendium.sdk=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.compendium.sdk
 feature@org.eclipse.equinox.core.feature=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=features/org.eclipse.equinox.core.feature
 feature@org.eclipse.equinox.core.sdk=GIT,tag=v20110808-1537,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=features/org.eclipse.equinox.core.sdk
@@ -143,7 +143,7 @@ feature@org.eclipse.equinox.weaving.sdk=GIT,tag=v20110502,repo=git://git.eclipse
 
 !**** Test Suites
 plugin@org.eclipse.core.tests.harness=GIT,tag=v20110721-1714,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.tests.harness
-plugin@org.eclipse.core.tests.resources=GIT,tag=v20110511-0607,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=org.eclipse.core.tests.resources
+plugin@org.eclipse.core.tests.resources=GIT,tag=v20110511-0607,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.resources.git,path=tests/org.eclipse.core.tests.resources
 plugin@org.eclipse.core.tests.runtime=GIT,tag=v20110727-1803,repo=git://git.eclipse.org/gitroot/platform/eclipse.platform.runtime.git,path=tests/org.eclipse.core.tests.runtime
 plugin@org.eclipse.osgi.tests=GIT,tag=v20110808-1537,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.framework.git,path=bundles/org.eclipse.osgi.tests
 plugin@org.eclipse.equinox.ds.tests=GIT,tag=v20110502,repo=git://git.eclipse.org/gitroot/equinox/rt.equinox.bundles.git,path=bundles/org.eclipse.equinox.ds.tests

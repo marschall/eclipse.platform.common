@@ -56,11 +56,17 @@
         <td align="left" valign="top">
         	<p>Whether a <code>package-info.java</code> file should be created in the newly created package.</p>
         	
-        	<p>
-        		The <code>package-info.java</code> file can package level documentation as well as annotations. 
-        		For more information see the
-        		<a href="http://docs.oracle.com/javase/specs/jls/se7/html/jls-7.html#jls-7.4.1">JLS 7.4.1. Named Packages</a>.
-        	</p>
+        	<p>The <code>package-info.java</code> file can package level documentation as well as annotations. For example:</p> 
+        		
+<pre><code>
+/**
+ * This package contains JAXB classes.
+ */
+@XmlSchema(namespace = "http://www.example.com", elementFormDefault = XmlNsForm.QUALIFIED)
+package com.acme.jaxb;
+</code></pre>
+        		
+        	<p>For more information see the <a href="http://docs.oracle.com/javase/specs/jls/se7/html/jls-7.html#jls-7.4.1">JLS 7.4.1. Named Packages</a>.</p>
         
         	<p>If the source level is 1.4 or below a <code>package.html</code> will be created instead.</p>
         </td>

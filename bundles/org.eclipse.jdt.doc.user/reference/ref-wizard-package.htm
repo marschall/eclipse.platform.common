@@ -51,9 +51,19 @@
       </tr>
 
       <tr>
-        <td align="left" valign="top">Create package documentation</td>
+        <td align="left" valign="top">Create package-&info.java</td>
 
-        <td align="left" valign="top">Whether package documentation (package-info.java or package.html depending on the source version) should be created.</td>
+        <td align="left" valign="top">
+        	<p>Whether a <code>package-info.java</code> file should be created in the newly created package.</p>
+        	
+        	<p>
+        		The <code>package-info.java</code> file can package level documentation as well as annotations. 
+        		For more information see the
+        		<a href="http://docs.oracle.com/javase/specs/jls/se7/html/jls-7.html#jls-7.4.1">JLS 7.4.1. Named Packages</a>.
+        	</p>
+        
+        	<p>If the source level is 1.4 or below a <code>package.html</code> will be created instead.</p>
+        </td>
 
         <td align="left" valign="top">false</td>
       </tr>
